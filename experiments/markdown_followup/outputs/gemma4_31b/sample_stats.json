@@ -1,0 +1,78 @@
+{
+ "model": "gemma4_31b",
+ "sample": "sample",
+ "pdf": "/export/home/oalsumaitti/ocr-test/pdfs/sample.pdf",
+ "dpi": 320,
+ "max_new_tokens": 4096,
+ "repetition_penalty": 1.15,
+ "prompt": "Extract ALL text from this page exactly as written, and format your output as clean Markdown. Preserve the natural reading order (Arabic is right-to-left). Use Markdown headings (# for a main title, ## for a section heading) if the page shows a title or section header. Use Markdown bullet lists (-) or numbered lists (1.) for any list items. Serialize any table as a GitHub-flavored Markdown table with | separators and a header divider row. Wrap any code or terminal output in a fenced code block (```). Transcribe only text that is visible on the page - do not describe images, do not add commentary. If the page is blank, output nothing.",
+ "total_seconds": 551.49,
+ "pages": [
+  {
+   "page": 1,
+   "chars": 1129,
+   "generated_tokens": 399,
+   "seconds": 32.5
+  },
+  {
+   "page": 2,
+   "chars": 6019,
+   "generated_tokens": 1731,
+   "seconds": 374.13
+  },
+  {
+   "page": 3,
+   "chars": 713,
+   "generated_tokens": 207,
+   "seconds": 8.61
+  },
+  {
+   "page": 4,
+   "chars": 2255,
+   "generated_tokens": 745,
+   "seconds": 29.94
+  },
+  {
+   "page": 5,
+   "chars": 1674,
+   "generated_tokens": 576,
+   "seconds": 22.75
+  },
+  {
+   "page": 6,
+   "chars": 391,
+   "generated_tokens": 132,
+   "seconds": 5.51
+  },
+  {
+   "page": 7,
+   "chars": 1824,
+   "generated_tokens": 644,
+   "seconds": 25.51
+  },
+  {
+   "page": 8,
+   "chars": 1327,
+   "generated_tokens": 469,
+   "seconds": 18.63
+  },
+  {
+   "page": 9,
+   "chars": 678,
+   "generated_tokens": 248,
+   "seconds": 10.41
+  },
+  {
+   "page": 10,
+   "chars": 0,
+   "generated_tokens": 1,
+   "seconds": 0.3
+  },
+  {
+   "page": 11,
+   "chars": 1580,
+   "generated_tokens": 568,
+   "seconds": 23.18
+  }
+ ]
+}

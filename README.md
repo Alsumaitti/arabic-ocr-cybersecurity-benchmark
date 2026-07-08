@@ -29,7 +29,7 @@ decisively best table structure, and the safest failure modes. Full reasoning in
 <sub>Core-text = 208 body-text pages. CER/chrF Arabic-normalized. Full tables, per-type
 breakdowns and significance tests in [`results/scores/`](results/scores) and the report.</sub>
 
-> ### ⚠️ Honesty note — read this first
+> ### ⚠️  Note — read this first
 > The 276 ground-truth pages were **transcribed by Claude Opus 4.8 and given a light
 > human review**, then accepted — there was no time to hand-write or line-by-line
 > validate 276 pages. So every score measures **agreement with a strong-model
@@ -70,6 +70,7 @@ security-specific **IOC layer** (exact-match recall/precision on CVEs, IPs, hash
 ├── docs/                 Reports (EN/AR), sample-selection write-up, challenge log, slides
 ├── server_pipeline/      SLURM package to (re)run OCR + evaluation on the Panther/H200 cluster
 ├── experiment_archive/   Real Panther artifacts: the OCR runner + prompt, early attempts, evidence logs
+├── experiments/          Follow-up experiments (see Markdown follow-up below)
 └── tools/                Source scripts that generate the slide decks
 ```
 
@@ -111,6 +112,24 @@ See [server_pipeline/GUIDE.md](server_pipeline/GUIDE.md) and
 
 ---
 
+## Follow-up: Markdown output experiment
+
+A lightweight **visual sanity check** that patches two honest gaps in the main study —
+there was **no real human ground truth**, and outputs were scored as **flat text, not
+Markdown**, so document structure was invisible to the metrics. Instead of trusting a
+number against an imperfect reference, this experiment re-runs the same 4 models on an
+11-page mixed sample with a **Markdown-forcing prompt**, then places each **original
+PDF page next to the model's rendered Markdown** for direct eye comparison — no ground
+truth required.
+
+It serves the core mission (choosing the OCR model for Arabic cybersecurity books): it
+confirms **visually** that `gemma4_31b` rebuilds page structure — especially tables —
+faithfully, reinforcing the earlier choice rather than resting on CER alone. If
+Markdown clearly helps, the production prompt should switch to it before the full run.
+
+→ [experiments/markdown_followup/](experiments/markdown_followup) ·
+deck: [docs/slides/markdown_compare.pptx](docs/slides/markdown_compare.pptx)
+
 ## Methodology in one paragraph
 
 Each book is distilled to its **6 most informative pages** (heuristics propose
@@ -128,7 +147,8 @@ the security IOC layer.
 - **Model-made ground truth** — Opus 4.8 transcription, lightly reviewed (see honesty note).
 - **One corpus** — 276 pages of one library; generalization is unproven.
 - **Structure-blind** — plain-text GT + a text-only prompt, so document hierarchy is
-  untested and table-F1 is partly a prompt artifact (next experiment: Markdown output).
+  untested and table-F1 is partly a prompt artifact. Partly addressed by the
+  [Markdown follow-up](experiments/markdown_followup) (visual, no ground truth needed).
 - **Thin tails / single run** — 4 formula pages, 2 blank probes, 2 hashes, 1 CVE; one
   deterministic pass per model; TEDS is approximated on plain text.
 
