@@ -1,8 +1,7 @@
 # Arabic Cybersecurity OCR Benchmark
 
 Choosing the best OCR / vision-language model for extracting text from **Arabic
-cybersecurity books**, evaluated with a multi-axis methodology inspired by
-[KITAB-Bench](https://mbzuai-oryx.github.io/KITAB-Bench/).
+cybersecurity books**, evaluated with a multi-axis 
 
 ![status](https://img.shields.io/badge/status-complete-02C39A)
 ![license](https://img.shields.io/badge/license-MIT-1C7293)
@@ -130,7 +129,7 @@ Markdown clearly helps, the production prompt should switch to it before the ful
 → [experiments/markdown_followup/](experiments/markdown_followup) ·
 deck: [docs/slides/markdown_compare.pptx](docs/slides/markdown_compare.pptx)
 
-## Methodology in one paragraph
+## Methodology 
 
 Each book is distilled to its **6 most informative pages** (heuristics propose
 candidates by content type; a vision LLM judge confirms them), giving a text-dominant
@@ -142,7 +141,7 @@ collapses across content types. Two models tie on raw character accuracy, so the
 decision moves to tables, a page-level win-rate matrix, a paired bootstrap test, and
 the security IOC layer.
 
-## Key limitations (stated openly)
+## Key limitations 
 
 - **Model-made ground truth** — Opus 4.8 transcription, lightly reviewed (see honesty note).
 - **One corpus** — 276 pages of one library; generalization is unproven.
