@@ -1,0 +1,1114 @@
+{
+  "gemma4_26b": {
+    "0_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/0_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/0_sample_stats.json",
+      "seconds": 247.44
+    },
+    "1_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/1_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/1_sample_stats.json",
+      "seconds": 139.29
+    },
+    "2_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/2_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/2_sample_stats.json",
+      "seconds": 157.12
+    },
+    "3_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/3_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/3_sample_stats.json",
+      "seconds": 151.46
+    },
+    "4_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/4_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/4_sample_stats.json",
+      "seconds": 136.51
+    },
+    "5_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/5_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/5_sample_stats.json",
+      "seconds": 124.72
+    },
+    "6_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/6_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/6_sample_stats.json",
+      "seconds": 156.88
+    },
+    "7_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/7_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/7_sample_stats.json",
+      "seconds": 152.68
+    },
+    "8_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/8_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/8_sample_stats.json",
+      "seconds": 196.56
+    },
+    "9_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/9_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/9_sample_stats.json",
+      "seconds": 516.99
+    },
+    "10_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/10_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/10_sample_stats.json",
+      "seconds": 137.41
+    },
+    "11_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/11_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/11_sample_stats.json",
+      "seconds": 179.59
+    },
+    "12_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/12_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/12_sample_stats.json",
+      "seconds": 111.28
+    },
+    "13_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/13_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/13_sample_stats.json",
+      "seconds": 104.43
+    },
+    "14_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/14_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/14_sample_stats.json",
+      "seconds": 116.24
+    },
+    "15_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/15_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/15_sample_stats.json",
+      "seconds": 59.43
+    },
+    "16_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/16_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/16_sample_stats.json",
+      "seconds": 136.84
+    },
+    "17_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/17_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/17_sample_stats.json",
+      "seconds": 653.73
+    },
+    "18_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/18_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/18_sample_stats.json",
+      "seconds": 141.35
+    },
+    "19_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/19_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/19_sample_stats.json",
+      "seconds": 184.52
+    },
+    "20_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/20_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/20_sample_stats.json",
+      "seconds": 208.06
+    },
+    "21_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/21_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/21_sample_stats.json",
+      "seconds": 105.6
+    },
+    "22_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/22_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/22_sample_stats.json",
+      "seconds": 955.93
+    },
+    "23_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/23_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/23_sample_stats.json",
+      "seconds": 903.48
+    },
+    "24_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/24_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/24_sample_stats.json",
+      "seconds": 105.09
+    },
+    "25_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/25_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/25_sample_stats.json",
+      "seconds": 209.42
+    },
+    "26_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/26_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/26_sample_stats.json",
+      "seconds": 255.95
+    },
+    "27_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/27_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/27_sample_stats.json",
+      "seconds": 858.11
+    },
+    "28_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/28_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/28_sample_stats.json",
+      "seconds": 194.42
+    },
+    "29_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/29_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/29_sample_stats.json",
+      "seconds": 172.4
+    },
+    "30_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/30_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/30_sample_stats.json",
+      "seconds": 215.35
+    },
+    "31_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/31_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/31_sample_stats.json",
+      "seconds": 244.97
+    },
+    "32_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/32_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/32_sample_stats.json",
+      "seconds": 196.95
+    },
+    "33_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/33_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/33_sample_stats.json",
+      "seconds": 240.7
+    },
+    "34_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/34_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/34_sample_stats.json",
+      "seconds": 413.82
+    },
+    "35_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/35_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/35_sample_stats.json",
+      "seconds": 136.82
+    },
+    "36_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/36_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/36_sample_stats.json",
+      "seconds": 190.31
+    },
+    "37_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/37_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/37_sample_stats.json",
+      "seconds": 138.99
+    },
+    "38_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/38_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/38_sample_stats.json",
+      "seconds": 164.04
+    },
+    "39_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/39_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/39_sample_stats.json",
+      "seconds": 201.7
+    },
+    "40_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/40_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/40_sample_stats.json",
+      "seconds": 170.29
+    },
+    "41_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/41_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/41_sample_stats.json",
+      "seconds": 167.41
+    },
+    "42_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/42_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/42_sample_stats.json",
+      "seconds": 209.19
+    },
+    "43_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/43_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/43_sample_stats.json",
+      "seconds": 82.31
+    },
+    "44_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/44_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/44_sample_stats.json",
+      "seconds": 198.61
+    },
+    "45_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/45_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_26b/45_sample_stats.json",
+      "seconds": 233.76
+    }
+  },
+  "gemma4_31b": {
+    "0_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/0_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/0_sample_stats.json",
+      "seconds": 263.24
+    },
+    "1_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/1_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/1_sample_stats.json",
+      "seconds": 161.73
+    },
+    "2_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/2_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/2_sample_stats.json",
+      "seconds": 175.52
+    },
+    "3_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/3_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/3_sample_stats.json",
+      "seconds": 176.91
+    },
+    "4_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/4_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/4_sample_stats.json",
+      "seconds": 144.47
+    },
+    "5_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/5_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/5_sample_stats.json",
+      "seconds": 150.18
+    },
+    "6_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/6_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/6_sample_stats.json",
+      "seconds": 183.79
+    },
+    "7_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/7_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/7_sample_stats.json",
+      "seconds": 204.88
+    },
+    "8_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/8_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/8_sample_stats.json",
+      "seconds": 226.61
+    },
+    "9_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/9_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/9_sample_stats.json",
+      "seconds": 746.51
+    },
+    "10_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/10_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/10_sample_stats.json",
+      "seconds": 158.59
+    },
+    "11_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/11_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/11_sample_stats.json",
+      "seconds": 482.87
+    },
+    "12_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/12_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/12_sample_stats.json",
+      "seconds": 116.76
+    },
+    "13_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/13_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/13_sample_stats.json",
+      "seconds": 124.85
+    },
+    "14_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/14_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/14_sample_stats.json",
+      "seconds": 125.47
+    },
+    "15_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/15_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/15_sample_stats.json",
+      "seconds": 66.14
+    },
+    "16_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/16_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/16_sample_stats.json",
+      "seconds": 142.28
+    },
+    "17_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/17_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/17_sample_stats.json",
+      "seconds": 160.11
+    },
+    "18_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/18_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/18_sample_stats.json",
+      "seconds": 146.14
+    },
+    "19_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/19_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/19_sample_stats.json",
+      "seconds": 223.14
+    },
+    "20_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/20_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/20_sample_stats.json",
+      "seconds": 244.78
+    },
+    "21_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/21_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/21_sample_stats.json",
+      "seconds": 408.99
+    },
+    "22_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/22_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/22_sample_stats.json",
+      "seconds": 1078.42
+    },
+    "23_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/23_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/23_sample_stats.json",
+      "seconds": 247.23
+    },
+    "24_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/24_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/24_sample_stats.json",
+      "seconds": 120.63
+    },
+    "25_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/25_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/25_sample_stats.json",
+      "seconds": 247.48
+    },
+    "26_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/26_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/26_sample_stats.json",
+      "seconds": 283.3
+    },
+    "27_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/27_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/27_sample_stats.json",
+      "seconds": 60.15
+    },
+    "28_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/28_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/28_sample_stats.json",
+      "seconds": 229.07
+    },
+    "29_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/29_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/29_sample_stats.json",
+      "seconds": 200.04
+    },
+    "30_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/30_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/30_sample_stats.json",
+      "seconds": 250.68
+    },
+    "31_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/31_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/31_sample_stats.json",
+      "seconds": 279.91
+    },
+    "32_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/32_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/32_sample_stats.json",
+      "seconds": 244.56
+    },
+    "33_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/33_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/33_sample_stats.json",
+      "seconds": 567.99
+    },
+    "34_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/34_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/34_sample_stats.json",
+      "seconds": 499.67
+    },
+    "35_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/35_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/35_sample_stats.json",
+      "seconds": 150.2
+    },
+    "36_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/36_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/36_sample_stats.json",
+      "seconds": 224.54
+    },
+    "37_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/37_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/37_sample_stats.json",
+      "seconds": 154.3
+    },
+    "38_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/38_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/38_sample_stats.json",
+      "seconds": 183.05
+    },
+    "39_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/39_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/39_sample_stats.json",
+      "seconds": 496.68
+    },
+    "40_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/40_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/40_sample_stats.json",
+      "seconds": 187.05
+    },
+    "41_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/41_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/41_sample_stats.json",
+      "seconds": 194.0
+    },
+    "42_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/42_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/42_sample_stats.json",
+      "seconds": 263.99
+    },
+    "43_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/43_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/43_sample_stats.json",
+      "seconds": 93.34
+    },
+    "44_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/44_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/44_sample_stats.json",
+      "seconds": 225.01
+    },
+    "45_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/45_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/gemma4_31b/45_sample_stats.json",
+      "seconds": 276.81
+    }
+  },
+  "qwen36": {
+    "0_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/0_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/0_sample_stats.json",
+      "seconds": 504.38
+    },
+    "1_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/1_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/1_sample_stats.json",
+      "seconds": 280.0
+    },
+    "2_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/2_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/2_sample_stats.json",
+      "seconds": 639.69
+    },
+    "3_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/3_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/3_sample_stats.json",
+      "seconds": 300.07
+    },
+    "4_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/4_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/4_sample_stats.json",
+      "seconds": 276.87
+    },
+    "5_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/5_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/5_sample_stats.json",
+      "seconds": 726.71
+    },
+    "6_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/6_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/6_sample_stats.json",
+      "seconds": 1214.23
+    },
+    "7_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/7_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/7_sample_stats.json",
+      "seconds": 799.64
+    },
+    "8_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/8_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/8_sample_stats.json",
+      "seconds": 598.16
+    },
+    "9_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/9_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/9_sample_stats.json",
+      "seconds": 1040.85
+    },
+    "10_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/10_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/10_sample_stats.json",
+      "seconds": 296.78
+    },
+    "11_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/11_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/11_sample_stats.json",
+      "seconds": 797.42
+    },
+    "12_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/12_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/12_sample_stats.json",
+      "seconds": 589.27
+    },
+    "13_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/13_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/13_sample_stats.json",
+      "seconds": 724.24
+    },
+    "14_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/14_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/14_sample_stats.json",
+      "seconds": 1278.25
+    },
+    "15_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/15_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/15_sample_stats.json",
+      "seconds": 171.6
+    },
+    "16_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/16_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/16_sample_stats.json",
+      "seconds": 289.39
+    },
+    "17_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/17_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/17_sample_stats.json",
+      "seconds": 586.75
+    },
+    "18_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/18_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/18_sample_stats.json",
+      "seconds": 515.2
+    },
+    "19_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/19_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/19_sample_stats.json",
+      "seconds": 1173.65
+    },
+    "20_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/20_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/20_sample_stats.json",
+      "seconds": 752.86
+    },
+    "21_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/21_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/21_sample_stats.json",
+      "seconds": 412.1
+    },
+    "22_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/22_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/22_sample_stats.json",
+      "seconds": 1016.3
+    },
+    "23_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/23_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/23_sample_stats.json",
+      "seconds": 884.23
+    },
+    "24_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/24_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/24_sample_stats.json",
+      "seconds": 887.93
+    },
+    "25_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/25_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/25_sample_stats.json",
+      "seconds": 1036.65
+    },
+    "26_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/26_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/26_sample_stats.json",
+      "seconds": 1376.87
+    },
+    "27_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/27_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/27_sample_stats.json",
+      "seconds": 581.46
+    },
+    "28_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/28_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/28_sample_stats.json",
+      "seconds": 1313.68
+    },
+    "29_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/29_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/29_sample_stats.json",
+      "seconds": 372.78
+    },
+    "30_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/30_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/30_sample_stats.json",
+      "seconds": 415.46
+    },
+    "31_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/31_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/31_sample_stats.json",
+      "seconds": 1344.83
+    },
+    "32_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/32_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/32_sample_stats.json",
+      "seconds": 919.74
+    },
+    "33_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/33_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/33_sample_stats.json",
+      "seconds": 1146.15
+    },
+    "34_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/34_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/34_sample_stats.json",
+      "seconds": 1575.28
+    },
+    "35_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/35_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/35_sample_stats.json",
+      "seconds": 546.82
+    },
+    "36_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/36_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/36_sample_stats.json",
+      "seconds": 846.74
+    },
+    "37_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/37_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/37_sample_stats.json",
+      "seconds": 1096.34
+    },
+    "38_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/38_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/38_sample_stats.json",
+      "seconds": 360.49
+    },
+    "39_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/39_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/39_sample_stats.json",
+      "seconds": 641.66
+    },
+    "40_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/40_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/40_sample_stats.json",
+      "seconds": 883.33
+    },
+    "41_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/41_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/41_sample_stats.json",
+      "seconds": 356.29
+    },
+    "42_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/42_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/42_sample_stats.json",
+      "seconds": 495.81
+    },
+    "43_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/43_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/43_sample_stats.json",
+      "seconds": 763.14
+    },
+    "44_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/44_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/44_sample_stats.json",
+      "seconds": 402.28
+    },
+    "45_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/45_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/qwen36/45_sample_stats.json",
+      "seconds": 1089.69
+    }
+  },
+  "ain": {
+    "0_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/0_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/0_sample_stats.json",
+      "seconds": 131.98
+    },
+    "1_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/1_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/1_sample_stats.json",
+      "seconds": 29.21
+    },
+    "2_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/2_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/2_sample_stats.json",
+      "seconds": 47.18
+    },
+    "3_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/3_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/3_sample_stats.json",
+      "seconds": 54.33
+    },
+    "4_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/4_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/4_sample_stats.json",
+      "seconds": 35.48
+    },
+    "5_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/5_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/5_sample_stats.json",
+      "seconds": 32.23
+    },
+    "6_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/6_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/6_sample_stats.json",
+      "seconds": 55.17
+    },
+    "7_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/7_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/7_sample_stats.json",
+      "seconds": 63.03
+    },
+    "8_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/8_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/8_sample_stats.json",
+      "seconds": 49.72
+    },
+    "9_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/9_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/9_sample_stats.json",
+      "seconds": 36.83
+    },
+    "10_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/10_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/10_sample_stats.json",
+      "seconds": 50.46
+    },
+    "11_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/11_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/11_sample_stats.json",
+      "seconds": 56.16
+    },
+    "12_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/12_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/12_sample_stats.json",
+      "seconds": 92.77
+    },
+    "13_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/13_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/13_sample_stats.json",
+      "seconds": 38.33
+    },
+    "14_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/14_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/14_sample_stats.json",
+      "seconds": 48.36
+    },
+    "15_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/15_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/15_sample_stats.json",
+      "seconds": 162.17
+    },
+    "16_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/16_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/16_sample_stats.json",
+      "seconds": 36.64
+    },
+    "17_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/17_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/17_sample_stats.json",
+      "seconds": 89.72
+    },
+    "18_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/18_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/18_sample_stats.json",
+      "seconds": 60.67
+    },
+    "19_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/19_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/19_sample_stats.json",
+      "seconds": 46.21
+    },
+    "20_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/20_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/20_sample_stats.json",
+      "seconds": 37.97
+    },
+    "21_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/21_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/21_sample_stats.json",
+      "seconds": 241.47
+    },
+    "22_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/22_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/22_sample_stats.json",
+      "seconds": 221.3
+    },
+    "23_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/23_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/23_sample_stats.json",
+      "seconds": 122.77
+    },
+    "24_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/24_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/24_sample_stats.json",
+      "seconds": 26.09
+    },
+    "25_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/25_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/25_sample_stats.json",
+      "seconds": 137.93
+    },
+    "26_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/26_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/26_sample_stats.json",
+      "seconds": 126.24
+    },
+    "27_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/27_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/27_sample_stats.json",
+      "seconds": 170.19
+    },
+    "28_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/28_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/28_sample_stats.json",
+      "seconds": 52.91
+    },
+    "29_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/29_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/29_sample_stats.json",
+      "seconds": 104.96
+    },
+    "30_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/30_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/30_sample_stats.json",
+      "seconds": 135.98
+    },
+    "31_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/31_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/31_sample_stats.json",
+      "seconds": 55.61
+    },
+    "32_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/32_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/32_sample_stats.json",
+      "seconds": 179.18
+    },
+    "33_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/33_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/33_sample_stats.json",
+      "seconds": 150.6
+    },
+    "34_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/34_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/34_sample_stats.json",
+      "seconds": 131.96
+    },
+    "35_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/35_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/35_sample_stats.json",
+      "seconds": 114.31
+    },
+    "36_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/36_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/36_sample_stats.json",
+      "seconds": 118.45
+    },
+    "37_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/37_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/37_sample_stats.json",
+      "seconds": 99.98
+    },
+    "38_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/38_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/38_sample_stats.json",
+      "seconds": 151.03
+    },
+    "39_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/39_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/39_sample_stats.json",
+      "seconds": 116.94
+    },
+    "40_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/40_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/40_sample_stats.json",
+      "seconds": 42.95
+    },
+    "41_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/41_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/41_sample_stats.json",
+      "seconds": 55.92
+    },
+    "42_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/42_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/42_sample_stats.json",
+      "seconds": 115.79
+    },
+    "43_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/43_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/43_sample_stats.json",
+      "seconds": 40.97
+    },
+    "44_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/44_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/44_sample_stats.json",
+      "seconds": 52.34
+    },
+    "45_sample": {
+      "status": "ok",
+      "text_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/45_sample.txt",
+      "stats_file": "/export/home/oalsumaitti/ocr-test/results/all_samples_four_models/ain/45_sample_stats.json",
+      "seconds": 66.76
+    }
+  }
+}

@@ -1,0 +1,23 @@
+70
+(الشكل 4_26)، يبيّن الشكل نشاط الملفات حيث العمليّة المُنفذة هي تغيير السمات "Files With Modified Attributes" تعني أنَّه تم تغيير سَمّات معيّنة لملفات معيّنة، قد تتضمّن هذه السمات أشياء مثل ما إذا كان الملف مخفيًا أو للقراءة فقط أو تمَّ أرشفته. تقييم السلوك: يُشير هذا النشاط المشبوه بشكل إلى وجود برنامج ضار على النظام الهدف وذلك بسبب:
+- نسخ ملفات مشبوهة: يتم نسخ ملفات مثل SB.EXE و AV.EXE و RtlDriver32.exe، والتي تُستخدّم عادةً بواسطة البرامج الضارة إلى مواقع متعددة، هذا يُشير إلى محاولة البرنامج الضار لضمان بقائه على النظام وتجنّب الحذف.
+- مواقع النسخ: يتم نسخ الملفات إلى مجلّدات مؤقّتة ومجلدات بيانات التطبيقات، والتي تُعتبر مواقع شائعة للبرامج الضارة لإخفاء نفسها.
+- تعديل سَمات الملفات: قد تقوم البرامج الضارة بتعديل سَمات الملفات لإخفاء وجودها أو جعلها أكثر صعوبة في الحذف.
+- RtlDriver32.exe: وجود ملف برنامج تشغيل في مجلد بيانات التطبيقات يُعد أمرًا مثيرًا للقلق، حيث تعمل برامج التشغيل على مستوى منخفض في النظام، ممّا يُعطي البرامج الضارة تحكًما كبيرا.
+(الشكل 4_27)، يبين الشكل نشاط الملفات حيث العملية المُنفذة هي الحذف
+Files With Modified Attributes
+C:\Users\Admin\AppData\Local\Temp\DB.EXE
+C:\Users\Admin\AppData\Roaming\Microsoft\Windows\IETldCache\
+C:\Windows\SysWOW64\pt-PT2.exe
+C:\Documents and Settings\Administrator\Application Data\RtlDriver32.exe
+C:\WINDOWS\system32\c_10008O.exe
+Files Deleted
+• C:\Users\Admin\AppData\Local\Temp\ndhdrwfo.exe
+• C:\Users\Admin\AppData\Local\Temp\ocju.exe
+• %USERPROFILE%\AppData\Local\Temp\AV2
+• %USERPROFILE%\AppData\Local\Temp\~unins1484.bat
+• C:\ProgramData\Microsoft\Windows\WER\Temp\WER1027.tmp.mdmp
+• C:\ProgramData\Microsoft\Windows\WER\Temp\WER1113.tmp.WERInternalMetadata.xml
+• C:\Users\admin\AppData\Local\Temp\ndhdrwfo.exe
+• C:\Users\admin\AppData\Local\Temp\ocju.exe
+• C:\Windows\System32\spp\store\2.0\cache\cache.dat

@@ -1,0 +1,24 @@
+الفصل الرابع مسائل وتطبيقات بلغة C#
+88
+Cookies:
+هي عبارة عن ملف نصي صغير يتم إنشاءه من قبل متصفح الإنترنت (Browser)، ويحفظ على حاسوب الزبون من قبل المتصفح، ولا يستخدم ذاكرة حاسوب المخدم (Server)، عادة يحفظ فيه معلومات تعريفية بالزبون.
+Query Strings:
+تستخدم لإضافة معلومات إلى الرابط (URL)، عادةً المعلومات التي تضاف مثل (رقم الصفحة، شروط البحث) أي معلومات عامة.
+إسناد القيمة: Response.Cookies["nameWithCookies"].Value = "User-Name";
+قراءة القيمة: Label2.Text = Request.Cookies["nameWithCookies"].Value;
+protected void Page_Load(object sender, EventArgs e)
+{
+if (IsPostBack)
+{
+if (ViewState["count"] != null)
+{
+int ViewstateVal = Convert.ToInt32(ViewState["count"]) + 1;
+Label1.Text = ViewstateVal.ToString();
+ViewState["count"] = ViewstateVal.ToString();
+}
+else
+{
+ViewState["count"] = "1";
+}
+}
+}

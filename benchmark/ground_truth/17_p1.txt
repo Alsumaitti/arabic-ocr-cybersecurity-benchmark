@@ -1,0 +1,15 @@
+[TABLE]
+| Name | IEEE standard | Speed | Media | Maximum Distance |
+|---|---|---|---|---|
+| 10BASE-T | 802.3 (Ethernet) | 10 Mbps | Twisted pair (copper) | 100 m |
+| 100BASE-T | 802.3u (FastEthernet) | 100 Mbps | Twisted pair (copper) | 100 m |
+| 1000BASE-T | 802.3ab (GigaEthernet) | 1000 Mbps | Twisted pair (copper) | 100 m |
+| 1000BASE-LX | 802.3z (GigaEthernet) | 1000 Mbps | Long wavelength (single-mode fiber) | 5 km |
+| 10GBASE-T | 802.3an (10 Gigabit Ethernet) | 10 GBps | Twisted pair (copper) | 100 m |
+
+Ethernet Medium Access Control هذا المعيار يشرح نمطين للوصول للوسط:
+• Half duplex: في هذا النمط إذا كان هناك جهازين يرغبان بمشاركة وسط
+الارسال فإن التحكم بالوصول للوسط يتم من خلال تطبيق آلية تعمل على تحسس الحامل مع اكتشاف حدوث التصادم CSMA/CD – Carrier Sense Multiple Access with Collision Detection وهنا يكون للجهاز القدرة على اكتشاف عمليات الإرسال على نفس الوسط المشترك وعندما لا يكون هناك عملية ارسال يمكنه البدء هو بعملية الإرسال.
+يمكن لجهازين أن يرسلا بنقس الوقت مع بعض وفي هذه الحالة سيحدث تصادم بالرسائل وعند حدوث التصادم سيتم اكتشافه من قبل CSMA/CD والتي ستقوم بإيقاف الارسال وتأخر العملية لوقت محدد يسمى Backoff time يتم استخدام إشارة jam من قبل الأجهزة للإشارة أن التصادم قد حدث وكل الأجهزة التي يمكنها تحسس التصادم تكون كلها ضمن نفس collision domain
+25
+www.cyberpedia.site

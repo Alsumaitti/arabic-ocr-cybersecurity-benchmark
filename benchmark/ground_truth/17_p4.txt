@@ -1,0 +1,15 @@
+معايير الشبكات اللاسلكية:
+[TABLE]
+| Amendment | 2.4 GHz | 5 GHz | Max Data Rate | Notes |
+|---|---|---|---|---|
+| 802.11-1997 | Yes | No | 2 Mbps | The original 802.11 standard ratified in 1997 |
+| 802.11b | Yes | No | 11 Mbps | Introduced in 1999 |
+| 802.11g | Yes | No | 54 Mbps | Introduced in 2003 |
+| 802.11a | No | Yes | 54 Mbps | Introduced in 1999 |
+| 802.11n | Yes | Yes | 600 Mbps | HT (high throughput), introduced in 2009 |
+| 802.11ac | No | Yes | 6.93 Gbps | VHT (very high throughput), introduced in 2013 |
+| 802.11ax | Yes | Yes | 4x 802.11ac | High Efficiency Wireless, Wi-Fi6; expected late 2019; will operate on other bands too, as they become available |
+
+المعيار IEEE Standards 802.11 تم الإعلان عنه في عام 1997 هذا المعيار عرف Wireless Local Area Network (WLAN) شبكة لاسلكية محلية تعمل بسرعة نقل بيانات أو معدل نقل بيانات Data rate 1 and 2 Mbps وذلك في الحزمة الترددية المجانية ISM 2.4 GHz Industrial, Scientific, and Medical (ISM) frequency band الشبكات اللاسلكية 802.11 اليوم تعمل بسرعة نقل بيانات عالية وفي حزم ترددية إضافية ومع هذا التطور ظهرت أمور أخرى مثل الحماية Security والتجول Roaming وأجهزة الأكسس بوينت المتعددة وجودة الخدمة Quality of Service هذه الأمور تم تعريفها من خلال تعديلات بإضافة حرف أو أكثر إلى جانب رقم المعيار 802.11 هذا الحرف أو الأكثر يشير إلى مجموعة العمل التي قامت بإصدار هذا التعديل أو المعيار
+62
+www.cyberpedia.site

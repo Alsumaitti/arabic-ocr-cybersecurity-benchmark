@@ -1,0 +1,10 @@
+o 24 bits تحوي على معرف خاص باسم الشركة المصنعة Organizationl
+Unique Identifier – OUI
+o 24 bit يتم تعينها من قبل الشركة المصنعة ليكون عنوان MAC بشكل
+كامل هو 48 bit MAC-48 Address 24 Bits 24 Bits OUI Assigned | Vendor Assigned إيجاد عنوان MAC:
+في نظام الويندوز لايجاد عنوان MAC Address يمكننا استخدام التعليمة:
+ipconfig/all C:\Users\H20>ipconfig/all Windows IP Configuration Host Name Primary Dns Suffix Node Type: Hybrid IP Routing Enabled: No WINS Proxy Enabled: No DNS Suffix Search List: Home Ethernet adapter ??Ethernet:
+Media State: Media disconnected Connection-specific DNS Suffix Description Physical Address DHCP Enabled: Yes Autoconfiguration Enabled: Yes root@h2o:~# ifconfig eth0: flags=4163<UP,BROADCAST,RUNNING,MULTI inet 192.168.200.128 netmask 255.
+inet6 fe80::20c:29ff:fe69:6293 pre ether 00:0c:29:09:62:93 txqueuele RX packets 1403 bytes 167669 (163 RX errors 0 dropped 0 overruns 0 TX packets 913 bytes 80200 (78.3 TX errors 0 dropped 0 overruns 0 في نظام Kali Linux من خلال التعليمة ifconfig LAN Hubs and Bridges Collision domain: يعرف آلية استخدام الوسط من قبل جهازين بنفس الوقت وذلك لتجنب حدوث التصادم وهذه الخطوة تتطلب بعض الخوارزميات لتجنب ارسال فريمين بنفس الوقت وحدوث التصادم والذي يؤدي لفقدان المعلومات، يمكننا استخدام CSMA/CD لحل هذه المشكلة وهي تسمح لكل جهاز باكتشاف التصادم وتجنب الارسال بنفس الوقت.
+29
+www.cyberpedia.site

@@ -1,0 +1,37 @@
+أمن تكنولوجيا المعلومات
+جدول المحتويات
+2.2.4.1 تعيين كلمة مرور للملفات المضغوطة Setting a password for compressed files 12
+3.2.4.1 تعيين كلمة مرور للجداول الإلكترونية Setting a password for spreadsheets 15
+3.4.1 إيجابيات وقيود التشفير The advantages and limitations of encryption 16
+1.3.4.1 إيجابيات التشفير The advantages of encryption 16
+2.3.4.1 قيود التشفير The limitations of encryption 16
+تمرين (1-4) 16
+2 البرمجيات الخبيثة/الضارة MALWARE 17
+1.2 التعريف والوظيفة DEFINITION AND FUNCTION 17
+1.1.2 مفهوم البرمجيات الخبيثة/الضارة The term: Malware 17
+2.1.2 الطرق التي تختبئ وتختفي بها البرمجيات الخبيثة/الضارة Ways that malware can be concealed 17
+تمرين (2-1) 17
+2.2 الأنواع TYPES 18
+1.2.2 أنواع البرمجيات الخبيثة المعدية، وآلية عملها Types of infectious malware and how they work 18
+2.2.2 أنواع البرمجيات الخبيثة لسرقة البيانات، وتوليد الأرباح/الابتزاز، وآلية عملها Types of data theft, profit generating/extortion malware and how they work 18
+تمرين (2-2) 19
+3.2 الحماية PROTECTION 20
+1.3.2 آلية عمل برامج مكافحة الفيروسات، ومحدداتها How anti-virus software works and its limitations 21
+2.3.2 استخدام برنامج مكافحة الفيروسات Using anti-virus software 21
+1.2.3.2 فحص محركات أقراص محددة من الفيروسات Scanning specific drives 21
+2.2.3.2 فحص مجلدات محددة من الفيروسات Scanning specific folders 21
+3.2.3.2 فحص ملفات محددة من الفيروسات Scanning specific files 22
+4.2.3.2 جدولة الفحص Schedule scans 23
+3.3.2 الحَجْر، وأثره على الملفات المصابة أو المشكوك بها The quarantine and its effect on infected/suspicious files 24
+4.3.2 أهمية تحميل وتثبيت تحديثات البرامج، وملفات تعريف مكافحة الفيروسات The importance of downloading and installing software updates, anti-virus definition files 24
+تمرين (2-3) 25
+3 أمن الشبكات NETWORK SECURITY 26
+1.3 الشبكات NETWORKS 26
+1.1.3 مفهوم الشبكة، وأهم أنواعها The term: Network and common network types 26
+2.1.3 دور مسؤول الشبكة The role of the network administrator 27
+3.1.3 الجدار الناري The firewall 28
+1.3.1.3 وظيفة الجدار الناري The function of a firewall 28
+2.3.1.3 قيود ومحددات الجدار الناري The limitations of a firewall 28
+تمرين (3-1) 28
+2.3 اتصالات الشبكة NETWORK CONNECTIONS 29
+1.2.3 خيارات الاتصال بالشبكة The options for connecting to a network 29

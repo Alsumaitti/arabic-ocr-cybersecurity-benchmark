@@ -1,0 +1,307 @@
+=== Page 1 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Transcribe the first paragraph:**
+    "الردقلا ىلع ةباصإ فلتخُم عاونأ تافلملا exe,sys,bat و تنتت نم للاخ اهليمحت أو ربع flash/DVD/CD/
+    وأ رُم تاقفر ليميلإا."
+
+2.  **Transcribe the second paragraph:**
+    "ةباصإ زاهجلا اهب نكمي نأ يّدؤي ىلإ نادقف تانايبلا وأ راينها ماظنلا وأ بيرخت تافلملا."
+
+3.  **Transcribe the third paragraph:**
+    "مو ضعب روملأا ةّصاخلا اهب اّنأ عيطتست ليوتحو ريفشتو اهسفن، ثيح ثاكتت رّركتو اهسفن عيطتستو ىدوع
+    جمارب ىرخأ، نمو ضارعأ ةباصلإا تاسورقلاب:"
+
+4.  **Transcribe the list items:**
+    ". تايّلمعلا بلّطتت رداصم رثكأ و تقو لوطأ يلاتلابو ضافخنا ءادأ زاهجلا."
+    ". روھوأ تاوصأ beep نم زاهجلا."
+    ". تاراعشإ ةتباث نم تاداضم تاسورقللا."
+    ". دّمجت زاهجلا ٍلكشب ّرمتم."
+    ". نادقف تافلملا وأ تادّلجملا."
+    ". دّمجت حّفصتملا."
+    ". ناصقن ةحاسملاب ةّرلحا."
+    ". روھوأ ذفاون ةقثبنم ريغ رم ةبوغرم."
+
+5.  **Transcribe the section header:**
+    "3. ناديدلا (Warms):"
+
+6.  **Transcribe the section text:**
+    "يه عون نم تايّجمربلا ةثيبخلا يتلا رّركت اهسفنو رشتنت ربع ةكبشلا ٍلكشب ّيئقلت نود ّيأ ٍلخدت ّيشرپ
+    وبّستو ًلامح ًادئازو مدع ةباجتسا نم لبق تارفريس ةكبشلاو تارفريس بيولاو ةزهجلأاو ةّيصخشلا وبضعب اھ
+    رداق ىلع بّبستلا ٍرضرب ماظنلل فدھلاو، ناديدلا يھ دحأ عاونلأا ةّيعرفلا تاسورقلل يھ لا بلطتت
+    فيضم موقتل رثاكلا وأ راركتلا هربع يھف عيطتست راركت اهسفنو راشتنتلا ربع ةكبّشلا يفو ضعب تلالاحلا
+    بيصت زاهجلا صخّشلا يذلا ماق ميمصتب اھم.
+    افلاتخا نع تاسورقللا اھنأ لا موقت ليدعتلاب ىلع ّيأ جمانرب وأ فلم و موقت طقف للاغتساب ةركاذلاو جلاعمّلاو،
+    ناديدلا رشتنت ٍلكشب ربكأو عرسأ نم تاسورقللا نم نكلو لھسلا زإ اھت نم ماظنلا."
+
+7.  **Transcribe the next section header:**
+    "4. Fileless Malware:"
+
+8.  **Transcribe the final section text:**
+    "يف تقولا ّيلاحلا حبصأ اذه عونلا مَدختسُم ٍلكشب ريبك نم لَبِق يمرجُم تنرتنلإا ببسب هصئاصخ ريغ ةحاضولا
+    ةّيجمربك ةثيبخلا، وهو رداق ىلع زواجت مظعم مظنأ ةمظنأ مّكحتلا ةيامحلابو تاداضم تاسورقللا، عونلا اذھ نم
+    تايّجمربلا فرعُي ًاضيأ مساب non-malware بيصُيو جماربلا ةّيعرشلاو تاقيبطتلاو تالوكوملا ةدوجوملا
+    يف ماظنلا موقتل تاطاشنب ةثيبخ ةدّدعتم متيو كلذ نم للاخ ةدافتسلاا نم دوجو تارغث موقي اھللغتسابو ةباصإ
+    ماظنلا نم اھللخاو، ٍلكشب ّماع اذه عونلا ىقبي نمض ةركاذلا RAM موقيو نقحب دوكلا ثيبخلا يف تايّلمع
+    لمعت ًايلاح لثم Microsoft Word, Flash, Adobe PDF, malicious Macros"
+
+9.  **Transcribe the page number:**
+    "13"
+</think>
+
+الردقلا ىلع ةباصإ فلتخُم عاونأ تافلملا exe,sys,bat و تنتت نم للاخ اهليمحت أو ربع flash/DVD/CD/
+وأ رُم تاقفر ليميلإا.
+ةباصإ زاهجلا اهب نكمي نأ يّدؤي ىلإ نادقف تانايبلا وأ راينها ماظنلا وأ بيرخت تافلملا.
+مو ضعب روملأا ةّصاخلا اهب اّنأ عيطتست ليوتحو ريفشتو اهسفن، ثيح ثاكتت رّركتو اهسفن عيطتستو ىدوع
+جمارب ىرخأ، نمو ضارعأ ةباصلإا تاسورقلاب:
+. تايّلمعلا بلّطتت رداصم رثكأ و تقو لوطأ يلاتلابو ضافخنا ءادأ زاهجلا.
+. روھوأ تاوصأ beep نم زاهجلا.
+. تاراعشإ ةتباث نم تاداضم تاسورقللا.
+. دّمجت زاهجلا ٍلكشب ّرمتم.
+. نادقف تافلملا وأ تادّلجملا.
+. دّمجت حّفصتملا.
+. ناصقن ةحاسملاب ةّرلحا.
+. روھوأ ذفاون ةقثبنم ريغ رم ةبوغرم.
+3. ناديدلا (Warms):
+يه عون نم تايّجمربلا ةثيبخلا يتلا رّركت اهسفنو رشتنت ربع ةكبشلا ٍلكشب ّيئقلت نود ّيأ ٍلخدت ّيشرپ
+وبّستو ًلامح ًادئازو مدع ةباجتسا نم لبق تارفريس ةكبشلاو تارفريس بيولاو ةزهجلأاو ةّيصخشلا وبضعب اھ
+رداق ىلع بّبستلا ٍرضرب ماظنلل فدھلاو، ناديدلا يھ دحأ عاونلأا ةّيعرفلا تاسورقلل يھ لا بلطتت
+فيضم موقتل رثاكلا وأ راركتلا هربع يھف عيطتست راركت اهسفنو راشتنتلا ربع ةكبّشلا يفو ضعب تلالاحلا
+بيصت زاهجلا صخّشلا يذلا ماق ميمصتب اھم.
+افلاتخا نع تاسورقللا اھنأ لا موقت ليدعتلاب ىلع ّيأ جمانرب وأ فلم و موقت طقف للاغتساب ةركاذلاو جلاعمّلاو،
+ناديدلا رشتنت ٍلكشب ربكأو عرسأ نم تاسورقللا نم نكلو لھسلا زإ اھت نم ماظنلا.
+4. Fileless Malware:
+يف تقولا ّيلاحلا حبصأ اذه عونلا مَدختسُم ٍلكشب ريبك نم لَبِق يمرجُم تنرتنلإا ببسب هصئاصخ ريغ ةحاضولا
+ةّيجمربك ةثيبخلا، وهو رداق ىلع زواجت مظعم مظنأ ةمظنأ مّكحتلا ةيامحلابو تاداضم تاسورقللا، عونلا اذھ نم
+تايّجمربلا فرعُي ًاضيأ مساب non-malware بيصُيو جماربلا ةّيعرشلاو تاقيبطتلاو تالوكوملا ةدوجوملا
+يف ماظنلا موقتل تاطاشنب ةثيبخ ةدّدعتم متيو كلذ نم للاخ ةدافتسلاا نم دوجو تارغث موقي اھللغتسابو ةباصإ
+ماظنلا نم اھللخاو، ٍلكشب ّماع اذه عونلا ىقبي نمض ةركاذلا RAM موقيو نقحب دوكلا ثيبخلا يف تايّلمع
+لمعت ًايلاح لثم Microsoft Word, Flash, Adobe PDF, malicious Macros
+13
+
+=== Page 2 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main heading:** "• الأداة توداوت ةمختسملا يف ةيلمع ليلحتلا تباث (Static Analysis):"
+2.  **Identify the subheading:** "HashMyFiles:"
+3.  **Transcribe the first paragraph:** "يه ةادأ ةيناجم نم ريوطت NirSoft ، حيتت كل باسح ظفحو ميق ةئزجتلا (hashes) تافلملل . ميق ةئزجتلا يه زومر ةديرف لثمت ةمصبةيمقر فلملل ، مدختست ققحتلل نم ةملاس فلملا دكأتلاو نم مدع هضرعت رييغتلل وأ فلتلا."
+4.  **Identify the section heading:** "ضرغلا نم HashMyFiles:"
+5.  **Transcribe the bullet points under this section:**
+    *   "- ققحتلا نم ةملاس تافلملا : HashMyFiles مادختسا نكمي هليزنتب تمق يذلا فلملا ّنأ نم وأ هخسن قباطم أمامت فلملل يلصلأا."
+    *   "- فشكل نع تافلملا ةلدعملا : HashMyFiles مادختسا نكمي اهؤارجإ ّمت تارييغت يأ نع فشكل ىلع فلم ، ءاوس تناك هذه تارييغتلا ةدوصقم وأ ريغ ةدوصقم."
+    *   "- ةنراقم تافلملا : HashMyFiles مادختسا نكمي نيقباطتم امهنأ نم دكأتلاو نيفلم ةنراقمل."
+6.  **Identify the next section heading:** "تازّيم HashMyFiles:"
+7.  **Transcribe the bullet points under this section:**
+    *   "- معد تايئزج ةلدعتُم : معدت HashMyFiles تايئزج ةفلتخم ، امب يف كلذ MD5 و SHA1 و SHA256 و SHA512."
+    *   "- ظفح ميق ةئزجتلا : نكمي ظفح ميق ةئزجتلا يف فلم ّيصن أو فلم CSV وأ اهقصل يف ةظفاحلا."
+    *   "- ةنراقم ميق ةئزجتلا : نكمي ةنراقم ميق ةئزجتلا نيفلمل ققحتلل نم امهقباطت."
+    *   "- لماكت ةمئاق قايسلا : نكمي جمد HashMyFiles يف ةمئاق قايسلا يف فشتكم Windows ، اّمم حيتُي كل باسح ميق ةئزجتلا تافلملل ةلوهسب."
+    *   "- ةفيفخ نزولا : HashMyFiles يه ةادأ ةفيفخ نزولا لاو بلطتت تيبثتلا."
+8.  **Transcribe the page number:** "27"
+</think>
+
+• الأداة توداوت ةمختسملا يف ةيلمع ليلحتلا تباث (Static Analysis):
+HashMyFiles:
+يه ةادأ ةيناجم نم ريوطت NirSoft ، حيتت كل باسح ظفحو ميق
+ةئزجتلا (hashes) تافلملل . ميق ةئزجتلا يه زومر ةديرف لثمت
+ةمصبةيمقر فلملل ، مدختست ققحتلل نم ةملاس فلملا دكأتلاو نم
+مدع هضرعت رييغتلل وأ فلتلا.
+HashMyFiles
+ضرغلا نم HashMyFiles:
+- ققحتلا نم ةملاس تافلملا : HashMyFiles مادختسا نكمي هليزنتب تمق يذلا فلملا ّنأ نم
+وأ هخسن قباطم أمامت فلملل يلصلأا.
+- فشكل نع تافلملا ةلدعملا : HashMyFiles مادختسا نكمي اهؤارجإ ّمت تارييغت يأ نع فشكل
+ىلع فلم ، ءاوس تناك هذه تارييغتلا ةدوصقم وأ ريغ ةدوصقم.
+- ةنراقم تافلملا : HashMyFiles مادختسا نكمي نيقباطتم امهنأ نم دكأتلاو نيفلم ةنراقمل.
+تازّيم HashMyFiles:
+- معد تايئزج ةلدعتُم : معدت HashMyFiles تايئزج ةفلتخم ، امب يف كلذ
+MD5 و SHA1 و SHA256 و SHA512.
+- ظفح ميق ةئزجتلا : نكمي ظفح ميق ةئزجتلا يف فلم ّيصن أو فلم CSV وأ اهقصل يف ةظفاحلا.
+- ةنراقم ميق ةئزجتلا : نكمي ةنراقم ميق ةئزجتلا نيفلمل ققحتلل نم امهقباطت.
+- لماكت ةمئاق قايسلا : نكمي جمد HashMyFiles يف ةمئاق قايسلا يف فشتكم Windows ، اّمم
+حيتُي كل باسح ميق ةئزجتلا تافلملل ةلوهسب.
+- ةفيفخ نزولا : HashMyFiles يه ةادأ ةفيفخ نزولا لاو بلطتت تيبثتلا.
+27
+
+=== Page 3 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main heading:** "تخطيط الخوارزمية:"
+2.  **Identify the subheading:** "نُبِّذُ المُمَخَّضَاتِ التَّالِيَةِ عَمَل الخوارزمية:"
+3.  **Transcribe the flowchart text in reading order (top to bottom, left to right):**
+    *   "البداية"
+    *   "مجموعه بيانات"
+    *   "حساب الترتيب العام لكل فنص"
+    *   "حساب الترتيب و عدد الحرف لكل فصة"
+    *   "تحديد عدد الجذر/الحرف الأكبر"
+    *   "تقسيم البيانات المبتقة"
+    *   "هل تم التصفية على جميع الصفات؟"
+    *   "YES"
+    *   "NO"
+    *   "إصدار نتائج"
+    *   "النهاية"
+    *   "40"
+</think>
+
+تخطيط الخوارزمية:
+نُبِّذُ المُمَخَّضَاتِ التَّالِيَةِ عَمَل الخوارزمية:
+البداية
+مجموعه بيانات
+حساب الترتيب العام لكل فنص
+حساب الترتيب و عدد الحرف لكل فصة
+تحديد عدد الجذر/الحرف الأكبر
+تقسيم البيانات المبتقة
+هل تم التصفية على جميع الصفات؟
+YES
+NO
+إصدار نتائج
+النهاية
+40
+
+=== Page 4 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Transcribe the main heading:** "المكتبات المستخدمة في العينة المسرودة هي:"
+2.  **Transcribe the first bullet point:** "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارة والملفات والعادات" -> Wait, looking closer at the image: "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> Correction: "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> Actually, looking at the image again: "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> No, the text is: "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> Let me re-read carefully. "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> The last word is "بلصة."? No, it looks like "بلصة." but contextually it might be "بلصة". Let's transcribe exactly what is written: "Kernel32.dll: التي تحوي على الوظائف الأساسية التي تقوم بالاتصال بالكذارات والملفات والعادات بلصة." -> Wait, looking at the very end of the line. It says "بلصة."
+3.  **Transcribe the second bullet point:** "Advapi32.dll: (Application Programming Interface) التي تقوم بإدارة واجهة برمجة التطبيقات، من الوظائف هذه المكتبة التي تقوم بإدارة الخدمات والنوافذ، والمهام الأساسية التي تقوم بها هذه المكتبة هي الوصول إلى Registry و Service Manger."
+4.  **Transcribe the third bullet point:** "Ws2_32.dll: المكتبة التي تستخدم Wsok32 لإضافة بعض الوظائف التي تقوم بإدارة الاتصالات الشبكية، من بين هذه الوظائف التي تقوم بإدارة الاتصالات الشبكية، وإرسال البيانات عبر بروتوكول Tcp/IP." -> Correction: "Ws2_32.dll: المكتبة التي تستخدم Wsok32 لإضافة بعض الوظائف التي تقوم بإدارة الاتصالات الشبكية، من بين هذه الوظائف التي تقوم بإدارة الاتصالات الشبكية، وإرسال البيانات عبر بروتوكول Tcp/IP." -> Wait, the text says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Actually, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let me look at the image again. "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let me transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, looking at the image: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly what I see: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Okay, I will transcribe exactly: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> The text is: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Wait, the text is "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, it says "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> Let's transcribe: "Ws2_32.dll: المكتبة التي تستخدم Wsok32..." -> No, the text
+
+=== Page 5 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Transcribe the first box:**
+    "Files With Modified Attributes
+    C:\Users\Admin\AppData\Local\Temp\DB.EXE
+    C:\Users\Admin\AppData\Roaming\Microsoft\Windows\IETldCache\
+    C:\Windows\SysWOW64\pt-PT2.exe
+    C:\Documents and Settings\Administrator\Application Data\RtlDriver32.exe
+    C:\WINDOWS\system32\c_10008O.exe"
+
+2.  **Transcribe the caption below the first box:**
+    "لكشلا (26_4) ، نيبي لكشلا طاشن تافلملا ثيح ةيلمعلا ةذفنملا يه رييغت تامسلا"
+
+3.  **Transcribe the main paragraph:**
+    "\"Files With Modified Attributes\" نعت هّنأ ّمث رييغت تامس ةنّيعم تافلمل ةنّيعم ،قد تضتتم هذه تامسلا ءايشأ لثم ام اذا ناك فلملا ًايفخم وأ ةءارقلل طقف وأ ّمث هتفرشأ."
+
+4.  **Transcribe the "Conclusion" section:**
+    "مييقتلا كولسلا:"
+    "ريبثُي اذه طاشنلا لكشب هوبشم ىلإ دوجو جمانرب رارض ىلع ماظنلا فدهلاو كلذو ببسب:"
+    "- خسن تافلم هوبشم: لثم تافلم خسن ّمتي SB.EXE و AV.EXE و RtlDriver32.exe ، يتلاو نامضل رارضلا جمانربلا ةلواحم ىلإ ريبثُي اذا ،ةدّدتم عقاوم ىلإ ةرارضلا جماربلا ةطساوب ًةداع مّدختسُت .فذحلا بّنجت و ماظنلا ىلع هئاقب."
+    "- عقاوم خسنلا: تافلملا خسن ّمتي ىلإ تادّلجم ةتّقؤم و تادّلجم تانايب تاقيبطتلا ، يتلاو ربتعُت عقاوم ةشئاع .اهسفن ءافخلإ ةرارضلا جماربلل"
+    "- ليدعت تامس تافلملا: تافلملا تامس ليدعتب ةرارضلا جماربلا موقت قد اكترج اهلعج وأ وجودو ءافخلإ تافلملا .فذحلا في ةبوعص"
+    "- RtlDriver32.exe: RtlDriver32.exe :حيث ،قلقلل ًايرثم ًامرأ ّدعي تاقيبطتلا تانايب دّلجم في ليغشت جمانرب فلم دوجو : ًايربك ًاّمكحت ةرارضلا جماربلا يطعي امّم ،ماظنلا في ضفخنم ىوتسم ىلع ليغشتلا جمارب لمعت."
+
+5.  **Transcribe the second box:**
+    "Files Deleted
+    C:\Users\Admin\AppData\Local\Temp\ndhdrwfo.exe
+    C:\Users\Admin\AppData\Local\Temp\ocju.exe
+    %USERPROFILE%\AppData\Local\Temp\AV2
+    %USERPROFILE%\AppData\Local\Temp\~unins1484.bat
+    C:\ProgramData\Microsoft\Windows\WER\Temp\WER1027.tmp.mdmp
+    C:\ProgramData\Microsoft\Windows\WER\Temp\WER1113.tmp.WERIntern
+    alMetadata.xml
+    C:\Users\admin\AppData\Local\Temp\ndhdrwfo.exe
+    C:\Users\admin\AppData\Local\Temp\ocju.exe
+    C:\Windows\System32\spp\store\2.0\cache\cache.dat"
+
+6.  **Transcribe the caption below the second box:**
+    "لكشلا (27_4) ، نيبي لكشلا طاشن تافلملا ثيح ةيلمعلا ةذفنملا يه فذحلا"
+
+7.  **Transcribe the page number:**
+    "70"
+</think>
+
+Files With Modified Attributes
+C:\Users\Admin\AppData\Local\Temp\DB.EXE
+C:\Users\Admin\AppData\Roaming\Microsoft\Windows\IETldCache\
+C:\Windows\SysWOW64\pt-PT2.exe
+C:\Documents and Settings\Administrator\Application Data\RtlDriver32.exe
+C:\WINDOWS\system32\c_10008O.exe
+لكشلا (26_4) ، نيبي لكشلا طاشن تافلملا ثيح ةيلمعلا ةذفنملا يه رييغت تامسلا
+"Files With Modified Attributes" نعت هّنأ ّمث رييغت تامس ةنّيعم تافلمل ةنّيعم ،قد تضتتم هذه
+تامسلا ءايشأ لثم ام اذا ناك فلملا ًايفخم وأ ةءارقلل طقف وأ ّمث هتفرشأ.
+مييقتلا كولسلا:
+ريبثُي اذه طاشنلا لكشب هوبشم ىلإ دوجو جمانرب رارض ىلع ماظنلا فدهلاو كلذو ببسب:
+- خسن تافلم هوبشم: لثم تافلم خسن ّمتي SB.EXE و AV.EXE و RtlDriver32.exe ، يتلاو
+نامضل رارضلا جمانربلا ةلواحم ىلإ ريبثُي اذا ،ةدّدتم عقاوم ىلإ ةرارضلا جماربلا ةطساوب ًةداع مّدختسُت
+.فذحلا بّنجت و ماظنلا ىلع هئاقب.
+- عقاوم خسنلا: تافلملا خسن ّمتي ىلإ تادّلجم ةتّقؤم و تادّلجم تانايب تاقيبطتلا ، يتلاو ربتعُت عقاوم ةشئاع
+.اهسفن ءافخلإ ةرارضلا جماربلل
+- ليدعت تامس تافلملا: تافلملا تامس ليدعتب ةرارضلا جماربلا موقت قد اكترج اهلعج وأ وجودو ءافخلإ تافلملا
+.فذحلا في ةبوعص
+- RtlDriver32.exe: RtlDriver32.exe :حيث ،قلقلل ًايرثم ًامرأ ّدعي تاقيبطتلا تانايب دّلجم في ليغشت جمانرب فلم دوجو : ًايربك ًاّمكحت ةرارضلا جماربلا يطعي امّم ،ماظنلا في ضفخنم ىوتسم ىلع ليغشتلا جمارب لمعت.
+Files Deleted
+C:\Users\Admin\AppData\Local\Temp\ndhdrwfo.exe
+C:\Users\Admin\AppData\Local\Temp\ocju.exe
+%USERPROFILE%\AppData\Local\Temp\AV2
+%USERPROFILE%\AppData\Local\Temp\~unins1484.bat
+C:\ProgramData\Microsoft\Windows\WER\Temp\WER1027.tmp.mdmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WER1113.tmp.WERIntern
+alMetadata.xml
+C:\Users\admin\AppData\Local\Temp\ndhdrwfo.exe
+C:\Users\admin\AppData\Local\Temp\ocju.exe
+C:\Windows\System32\spp\store\2.0\cache\cache.dat
+لكشلا (27_4) ، نيبي لكشلا طاشن تافلملا ثيح ةيلمعلا ةذفنملا يه فذحلا
+70
+
+=== Page 6 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "❖ ةنراقم نيب ةيلمع ليلحتلا يكيئاتسلاو يكيمايدلا:"
+2.  **Transcribe the table headers:** "نم ثيح:", "ليلحتلا يكيئاتسلا", "ليلحتلا يكيمايدلا"
+3.  **Transcribe the first row:**
+    *   "موهفملا:"
+    *   "- متي صحف دوكلا يجمربلا تايجمربلل ةثيبخلا نود هذيفنت."
+    *   "- متي ليلحت تايجمربلا اهتافلمو امك يه نود رييغت اهتلاح."
+    *   "- متي ذيفنت تايجمربلا ةثيبخلا يف ةئيب ةبقارم ةنمآ ةبقارمل اهكولس."
+    *   "- متي ليلحت تايجمربلا ءانثأ اهليغشت لاعافتلا عم ماظنلا."
+4.  **Transcribe the second row:**
+    *   "تاينقتلا:"
+    *   "- كف عيمجتلا (Disassembling): ليومت تاميلعت ىلإ يئانثلا دوكلا يلبميسأ."
+    *   "- صحف شاهلا (Hashing): ةنراقم تاشاهلا فّرعتلل ىلع تايجمربلا ةثيبخلا ةفورعملا."
+    *   "- ليلحت لسلاسلا (String Analysis): ثحبلا نع صوصن ةدّدحُم لخاد تايجمربلا يتلا دق ريشُت ىلإ اياون ةثيبخ."
+    *   "- عبّتت ماظنلا (System Monitoring): ليجست تارييغت ماظنلا لثم ةباتكلا ىلع صرقلا ةكبشلاو لّجسُملاو (Registry)."
+    *   "- حيحصتلا (Debugging): مادختسا تاحّصُم عبّتتل ذيفنت دوكلا ةوطخ ةوطخب."
+5.  **Transcribe the third row:**
+    *   "ايازملا:"
+    *   "- عيرسو نكمُي هتنمتأ هتوهسب."
+    *   "- لا بلطتي ةئيب ليغشتو لا ضّرعي ماظنلا رطخلل."
+    *   "- نكمُي فاشتكا تايجمربلا ةثيبخلا نود ىلإ ةجاحلا اهذيفنت."
+    *   "- رفوي امهف اًقيمع كولسل تايجمربلا ةثيبخلاو ةيفيكو اهلاعافت عم ماظنلا."
+    *   "- نكمي فاشتكا تاديدجتلا ةديدجلاو ةدّقعملاو يتلا لا نكمُي اهفاشتكا ربع ليلحتلا يكيئاتسلا."
+6.  **Transcribe the fourth row:**
+    *   "بوبعلا:"
+    *   "- دق لا فشتكي تاينقتلا ةدّقعملا لثم ريفشتلاو ةئبعتلا."
+    *   "- لا رفوي ةيؤر كولسل تايجمربلا ةثيبخلا ءانثأ ذيفنتلا."
+    *   "- بلطتي اًتقو دراوم رثكأ نم ليلحتلا يكيئاتسلا."
+    *   "- نكمي نأ نوكي جمانربلا ثيبخلا ًارداق ىلع فاشتكا هّنأ لمعي لخاد ةئيب ليلحت رييغتو هكولس."
+7.  **Transcribe the page number:** "74"
+</think>
+
+❖ ةنراقم نيب ةيلمع ليلحتلا يكيئاتسلاو يكيمايدلا:
+نم ثيح:
+ليلحتلا يكيئاتسلا
+ليلحتلا يكيمايدلا
+موهفملا:
+- متي صحف دوكلا يجمربلا تايجمربلل ةثيبخلا نود هذيفنت.
+- متي ليلحت تايجمربلا اهتافلمو امك يه نود رييغت اهتلاح.
+- متي ذيفنت تايجمربلا ةثيبخلا يف ةئيب ةبقارم ةنمآ ةبقارمل اهكولس.
+- متي ليلحت تايجمربلا ءانثأ اهليغشت لاعافتلا عم ماظنلا.
+تاينقتلا:
+- كف عيمجتلا (Disassembling): ليومت تاميلعت ىلإ يئانثلا دوكلا يلبميسأ.
+- صحف شاهلا (Hashing): ةنراقم تاشاهلا فّرعتلل ىلع تايجمربلا ةثيبخلا ةفورعملا.
+- ليلحت لسلاسلا (String Analysis): ثحبلا نع صوصن ةدّدحُم لخاد تايجمربلا يتلا دق ريشُت ىلإ اياون ةثيبخ.
+- عبّتت ماظنلا (System Monitoring): ليجست تارييغت ماظنلا لثم ةباتكلا ىلع صرقلا ةكبشلاو لّجسُملاو (Registry).
+- حيحصتلا (Debugging): مادختسا تاحّصُم عبّتتل ذيفنت دوكلا ةوطخ ةوطخب.
+ايازملا:
+- عيرسو نكمُي هتنمتأ هتوهسب.
+- لا بلطتي ةئيب ليغشتو لا ضّرعي ماظنلا رطخلل.
+- نكمُي فاشتكا تايجمربلا ةثيبخلا نود ىلإ ةجاحلا اهذيفنت.
+- رفوي امهف اًقيمع كولسل تايجمربلا ةثيبخلاو ةيفيكو اهلاعافت عم ماظنلا.
+- نكمي فاشتكا تاديدجتلا ةديدجلاو ةدّقعملاو يتلا لا نكمُي اهفاشتكا ربع ليلحتلا يكيئاتسلا.
+بوبعلا:
+- دق لا فشتكي تاينقتلا ةدّقعملا لثم ريفشتلاو ةئبعتلا.
+- لا رفوي ةيؤر كولسل تايجمربلا ةثيبخلا ءانثأ ذيفنتلا.
+- بلطتي اًتقو دراوم رثكأ نم ليلحتلا يكيئاتسلا.
+- نكمي نأ نوكي جمانربلا ثيبخلا ًارداق ىلع فاشتكا هّنأ لمعي لخاد ةئيب ليلحت رييغتو هكولس.
+74

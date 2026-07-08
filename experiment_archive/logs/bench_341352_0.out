@@ -1,0 +1,284 @@
+[setup] torchvision already present, skipping install.
+[setup] torch 2.6.0+cu124 | torchvision 0.21.0+cu124 | CUDA True
+=== node crirdchpxd006 | model ain | Tue Jul  7 10:07:42 PM +03 2026 ===
+name, memory.total [MiB]
+NVIDIA H200, 143771 MiB
+loading ain from /export/home/oalsumaitti/models/AIN ...
+[0_sample] page 1/6  27.98s  468 tok
+[0_sample] page 2/6  2.85s  23 tok
+[0_sample] page 3/6  12.31s  625 tok
+[0_sample] page 4/6  9.73s  628 tok
+[0_sample] page 5/6  7.43s  434 tok
+[0_sample] page 6/6  12.8s  576 tok
+[10_sample] page 1/6  7.4s  382 tok
+[10_sample] page 2/6  12.27s  800 tok
+[10_sample] page 3/6  6.96s  354 tok
+[10_sample] page 4/6  5.52s  246 tok
+[10_sample] page 5/6  7.29s  383 tok
+[10_sample] page 6/6  6.57s  318 tok
+[11_sample] page 1/6  3.08s  4 tok
+[11_sample] page 2/6  13.96s  569 tok
+[11_sample] page 3/6  4.06s  49 tok
+[11_sample] page 4/6  12.1s  461 tok
+[11_sample] page 5/6  17.88s  747 tok
+[11_sample] page 6/6  13.81s  553 tok
+[12_sample] page 1/6  8.36s  266 tok
+[12_sample] page 2/6  9.04s  316 tok
+[12_sample] page 3/6  6.35s  169 tok
+[12_sample] page 4/6  8.41s  253 tok
+[guard] 12_sample p5: loop/runaway (4096 tok) -> retry
+[12_sample] page 5/6  63.47s  25 tok
+[12_sample] page 6/6  5.73s  236 tok
+[13_sample] page 1/6  7.92s  251 tok
+[13_sample] page 2/6  6.28s  149 tok
+[guard] 13_sample p3: loop/runaway (4096 tok) -> retry
+[13_sample] page 3/6  64.41s  59 tok
+[13_sample] page 4/6  9.16s  310 tok
+[13_sample] page 5/6  7.07s  208 tok
+[13_sample] page 6/6  5.39s  123 tok
+[14_sample] page 1/6  9.37s  322 tok
+[14_sample] page 2/6  9.48s  338 tok
+[14_sample] page 3/6  8.2s  269 tok
+[guard] 14_sample p4: loop/runaway (4096 tok) -> retry
+[14_sample] page 4/6  59.86s  102 tok
+[14_sample] page 5/6  7.74s  395 tok
+[14_sample] page 6/6  5.71s  228 tok
+[15_sample] page 1/6  3.6s  48 tok
+[15_sample] page 2/6  4.37s  120 tok
+[15_sample] page 3/6  4.71s  143 tok
+[15_sample] page 4/6  4.77s  142 tok
+[15_sample] page 5/6  5.51s  211 tok
+[15_sample] page 6/6  4.27s  113 tok
+[16_sample] page 1/6  6.91s  345 tok
+[16_sample] page 2/6  3.91s  111 tok
+[16_sample] page 3/6  6.83s  350 tok
+[16_sample] page 4/6  7.82s  431 tok
+[16_sample] page 5/6  7.09s  370 tok
+[16_sample] page 6/6  7.96s  429 tok
+[17_sample] page 1/6  8.01s  431 tok
+[17_sample] page 2/6  4.74s  171 tok
+[17_sample] page 3/6  10.34s  627 tok
+[17_sample] page 4/6  8.44s  454 tok
+[17_sample] page 5/6  4.3s  120 tok
+[17_sample] page 6/6  8.95s  484 tok
+[guard] 18_sample p1: loop/runaway (4096 tok) -> retry
+[18_sample] page 1/6  61.99s  391 tok
+[18_sample] page 2/6  6.05s  285 tok
+[18_sample] page 3/6  6.61s  331 tok
+[18_sample] page 4/6  7.81s  431 tok
+[18_sample] page 5/6  11.15s  703 tok
+[18_sample] page 6/6  5.61s  227 tok
+[19_sample] page 1/6  8.48s  447 tok
+[19_sample] page 2/6  6.12s  268 tok
+[guard] 19_sample p3: loop/runaway (4096 tok) -> retry
+[19_sample] page 3/6  57.27s  210 tok
+[19_sample] page 4/6  7.11s  340 tok
+[19_sample] page 5/6  9.36s  534 tok
+[19_sample] page 6/6  9.17s  518 tok
+[1_sample] page 1/6  3.99s  103 tok
+[1_sample] page 2/6  6.5s  320 tok
+[1_sample] page 3/6  6.89s  354 tok
+[1_sample] page 4/6  2.91s  26 tok
+[1_sample] page 5/6  2.85s  22 tok
+[1_sample] page 6/6  8.73s  503 tok
+[20_sample] page 1/6  10.72s  620 tok
+[guard] 20_sample p2: loop/runaway (4096 tok) -> retry
+[20_sample] page 2/6  80.55s  1317 tok
+[20_sample] page 3/6  13.28s  801 tok
+[20_sample] page 4/6  12.16s  713 tok
+[20_sample] page 5/6  6.92s  322 tok
+[20_sample] page 6/6  5.09s  164 tok
+[21_sample] page 1/6  2.84s  3 tok
+[21_sample] page 2/6  7.78s  373 tok
+[21_sample] page 3/6  3.18s  33 tok
+[guard] 21_sample p4: loop/runaway (4096 tok) -> retry
+[21_sample] page 4/6  61.55s  185 tok
+[21_sample] page 5/6  6.79s  300 tok
+[21_sample] page 6/6  3.56s  66 tok
+[22_sample] page 1/6  7.15s  382 tok
+[guard] 22_sample p2: loop/runaway (4096 tok) -> retry
+[22_sample] page 2/6  140.01s  4096 tok
+[22_sample] page 3/6  16.18s  760 tok
+[22_sample] page 4/6  9.76s  638 tok
+[22_sample] page 5/6  9.07s  588 tok
+[22_sample] page 6/6  11.93s  804 tok
+[23_sample] page 1/6  9.82s  553 tok
+[23_sample] page 2/6  4.58s  133 tok
+[23_sample] page 3/6  11.16s  682 tok
+[guard] 23_sample p4: loop/runaway (4096 tok) -> retry
+[23_sample] page 4/6  58.99s  360 tok
+[23_sample] page 5/6  9.67s  579 tok
+[23_sample] page 6/6  10.14s  520 tok
+[24_sample] page 1/6  3.65s  213 tok
+[24_sample] page 2/6  4.58s  302 tok
+[24_sample] page 3/6  4.66s  300 tok
+[24_sample] page 4/6  3.67s  220 tok
+[24_sample] page 5/6  3.64s  217 tok
+[24_sample] page 6/6  6.06s  402 tok
+[25_sample] page 1/6  10.12s  538 tok
+[25_sample] page 2/6  10.29s  569 tok
+[guard] 25_sample p3: loop/runaway (3357 tok) -> retry
+[25_sample] page 3/6  77.49s  1083 tok
+[25_sample] page 4/6  12.72s  494 tok
+[guard] 25_sample p5: loop/runaway (4096 tok) -> retry
+[25_sample] page 5/6  65.5s  484 tok
+[25_sample] page 6/6  10.48s  604 tok
+[26_sample] page 1/6  6.56s  294 tok
+[26_sample] page 2/6  9.25s  531 tok
+[26_sample] page 3/6  8.7s  464 tok
+[26_sample] page 4/6  12.87s  797 tok
+[26_sample] page 5/6  19.47s  833 tok
+[guard] 26_sample p6: loop/runaway (4096 tok) -> retry
+[26_sample] page 6/6  66.22s  506 tok
+[27_sample] page 1/6  3.74s  69 tok
+[guard] 27_sample p2: loop/runaway (4096 tok) -> retry
+[27_sample] page 2/6  56.17s  112 tok
+[guard] 27_sample p3: loop/runaway (4096 tok) -> retry
+[27_sample] page 3/6  66.88s  39 tok
+[27_sample] page 4/6  3.36s  57 tok
+[27_sample] page 5/6  3.89s  99 tok
+[27_sample] page 6/6  5.44s  229 tok
+[28_sample] page 1/6  13.97s  855 tok
+[28_sample] page 2/6  11.11s  699 tok
+[28_sample] page 3/6  8.34s  468 tok
+[28_sample] page 4/6  5.63s  238 tok
+[28_sample] page 5/6  6.67s  311 tok
+[28_sample] page 6/6  8.92s  520 tok
+[29_sample] page 1/6  7.74s  411 tok
+[29_sample] page 2/6  6.65s  334 tok
+[29_sample] page 3/6  10.03s  597 tok
+[29_sample] page 4/6  10.44s  632 tok
+[29_sample] page 5/6  2.65s  11 tok
+[29_sample] page 6/6  8.3s  450 tok
+[2_sample] page 1/6  7.39s  353 tok
+[2_sample] page 2/6  9.39s  501 tok
+[2_sample] page 3/6  8.56s  431 tok
+[2_sample] page 4/6  8.6s  441 tok
+[2_sample] page 5/6  7.08s  322 tok
+[2_sample] page 6/6  7.32s  349 tok
+[30_sample] page 1/6  10.19s  681 tok
+[30_sample] page 2/6  21.18s  997 tok
+[30_sample] page 3/6  12.92s  633 tok
+[30_sample] page 4/6  9.54s  661 tok
+[30_sample] page 5/6  8.54s  580 tok
+[30_sample] page 6/6  6.98s  434 tok
+[31_sample] page 1/6  9.52s  551 tok
+[31_sample] page 2/6  13.53s  904 tok
+[guard] 31_sample p3: loop/runaway (4096 tok) -> retry
+[31_sample] page 3/6  66.67s  997 tok
+[31_sample] page 4/6  14.13s  831 tok
+[31_sample] page 5/6  6.31s  159 tok
+[31_sample] page 6/6  12.25s  477 tok
+[32_sample] page 1/6  26.76s  1545 tok
+[32_sample] page 2/6  7.93s  414 tok
+[32_sample] page 3/6  15.28s  1036 tok
+[guard] 32_sample p4: loop/runaway (4096 tok) -> retry
+[32_sample] page 4/6  64.22s  736 tok
+[32_sample] page 5/6  6.4s  173 tok
+[32_sample] page 6/6  6.49s  173 tok
+[guard] 33_sample p1: loop/runaway (4096 tok) -> retry
+[33_sample] page 1/6  79.79s  1039 tok
+[33_sample] page 2/6  5.2s  190 tok
+[guard] 33_sample p3: loop/runaway (4096 tok) -> retry
+[33_sample] page 3/6  70.29s  949 tok
+[33_sample] page 4/6  5.14s  169 tok
+[guard] 33_sample p5: loop/runaway (4096 tok) -> retry
+[33_sample] page 5/6  64.38s  425 tok
+[33_sample] page 6/6  22.21s  1616 tok
+[34_sample] page 1/6  9.68s  418 tok
+[34_sample] page 2/6  14.46s  858 tok
+[34_sample] page 3/6  6.79s  305 tok
+[34_sample] page 4/6  14.74s  731 tok
+[34_sample] page 5/6  4.17s  74 tok
+[34_sample] page 6/6  7.7s  421 tok
+[35_sample] page 1/6  7.24s  469 tok
+[35_sample] page 2/6  6.59s  409 tok
+[35_sample] page 3/6  2.38s  47 tok
+[35_sample] page 4/6  7.26s  473 tok
+[35_sample] page 5/6  20.56s  1154 tok
+[35_sample] page 6/6  5.7s  337 tok
+[36_sample] page 1/6  2.15s  7 tok
+[36_sample] page 2/6  7.86s  457 tok
+[36_sample] page 3/6  9.84s  655 tok
+[36_sample] page 4/6  7.44s  457 tok
+[36_sample] page 5/6  6.77s  398 tok
+[36_sample] page 6/6  12.98s  905 tok
+[37_sample] page 1/6  9.03s  513 tok
+[37_sample] page 2/6  11.24s  429 tok
+[37_sample] page 3/6  2.81s  1 tok
+[37_sample] page 4/6  10.99s  515 tok
+[37_sample] page 5/6  7.1s  360 tok
+[37_sample] page 6/6  5.84s  257 tok
+[38_sample] page 1/6  1.48s  1 tok
+[38_sample] page 2/6  10.22s  715 tok
+[38_sample] page 3/6  3.85s  184 tok
+[38_sample] page 4/6  13.19s  962 tok
+[38_sample] page 5/6  5.68s  333 tok
+[38_sample] page 6/6  5.64s  337 tok
+[39_sample] page 1/6  7.86s  345 tok
+[39_sample] page 2/6  12.46s  717 tok
+[39_sample] page 3/6  11.56s  655 tok
+[guard] 39_sample p4: loop/runaway (4096 tok) -> retry
+[39_sample] page 4/6  104.63s  4096 tok
+[39_sample] page 5/6  9.46s  509 tok
+[39_sample] page 6/6  10.32s  557 tok
+[3_sample] page 1/6  7.61s  405 tok
+[3_sample] page 2/6  6.81s  351 tok
+[3_sample] page 3/6  8.07s  430 tok
+[3_sample] page 4/6  7.88s  411 tok
+[3_sample] page 5/6  6.53s  329 tok
+[3_sample] page 6/6  7.59s  418 tok
+[40_sample] page 1/6  4.84s  166 tok
+[40_sample] page 2/6  8.98s  498 tok
+[40_sample] page 3/6  8.12s  436 tok
+[40_sample] page 4/6  7.92s  425 tok
+[40_sample] page 5/6  9.56s  546 tok
+[40_sample] page 6/6  19.95s  1409 tok
+[41_sample] page 1/6  5.86s  263 tok
+[41_sample] page 2/6  6.68s  342 tok
+[41_sample] page 3/6  6.64s  339 tok
+[41_sample] page 4/6  8.53s  492 tok
+[guard] 41_sample p5: loop/runaway (4096 tok) -> retry
+[41_sample] page 5/6  61.35s  595 tok
+[41_sample] page 6/6  8.9s  518 tok
+[42_sample] page 1/6  6.09s  280 tok
+[42_sample] page 2/6  10.26s  638 tok
+[42_sample] page 3/6  9.84s  603 tok
+[42_sample] page 4/6  9.64s  579 tok
+[42_sample] page 5/6  11.77s  768 tok
+[42_sample] page 6/6  4.24s  122 tok
+[43_sample] page 1/6  5.09s  181 tok
+[43_sample] page 2/6  4.64s  149 tok
+[43_sample] page 3/6  3.35s  54 tok
+[43_sample] page 4/6  4.44s  142 tok
+[43_sample] page 5/6  5.86s  261 tok
+[43_sample] page 6/6  7.75s  394 tok
+[44_sample] page 1/6  15.55s  713 tok
+[44_sample] page 2/6  9.56s  578 tok
+[44_sample] page 3/6  10.67s  672 tok
+[44_sample] page 4/6  9.52s  574 tok
+[44_sample] page 5/6  5.88s  264 tok
+[44_sample] page 6/6  4.96s  193 tok
+[45_sample] page 1/6  11.22s  691 tok
+[45_sample] page 2/6  9.96s  599 tok
+[45_sample] page 3/6  8.37s  460 tok
+[45_sample] page 4/6  7.62s  411 tok
+[45_sample] page 5/6  3.53s  39 tok
+[45_sample] page 6/6  12.05s  783 tok
+[4_sample] page 1/6  6.38s  303 tok
+[4_sample] page 2/6  6.48s  324 tok
+[4_sample] page 3/6  5.63s  252 tok
+[4_sample] page 4/6  6.5s  322 tok
+[4_sample] page 5/6  10.53s  404 tok
+[4_sample] page 6/6  12.16s  482 tok
+[guard] 5_sample p1: loop/runaway (4096 tok) -> retry
+[5_sample] page 1/6  108.34s  4096 tok
+[5_sample] page 2/6  7.94s  431 tok
+[5_sample] page 3/6  6.95s  346 tok
+[5_sample] page 4/6  7.0s  352 tok
+[5_sample] page 5/6  7.14s  372 tok
+[5_sample] page 6/6  5.29s  199 tok
+[6_sample] page 1/6  6.47s  294 tok
+[6_sample] page 2/6  6.14s  164 tok
+[6_sample] page 3/6  11.24s  421 tok
+[6_sample] page 4/6  2.85s  1 tok

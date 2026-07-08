@@ -1,0 +1,12 @@
+Step 1
+the name of this process: ip lease request
+1- pc client without ip => send a request to get the ip
+2- 0.0.0.0
+3- 255.255.255.255: pc name, network card.
+Step 2
+the name of this process: ip lease offer
+DHCP يقوم بالرد ويحتوي على عنوان الأي بي والماك ادرس
+Step 3
+the name of this process
+بعد استلام الجهاز الأي بي والماك ادرس يقوم بإرسال رسالة يخبره انه تم اختيار أي بي
+17

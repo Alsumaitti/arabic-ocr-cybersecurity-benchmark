@@ -1,0 +1,267 @@
+=== Page 1 ===
+14
+
+=== Page 2 ===
+:
+Autokey Cipher
+
+.
+.
+.
+
+$P = P_1P_2P_3 \dots$
+$C = C_1C_2C_3 \dots$
+$k = (k_1, P_1, P_2, \dots)$
+$Encryption : C_i = (P_i + k_i) \bmod 26$
+
+$Decryption : P_i = (C_i - k_i) \bmod 26$
+
+:
+Vigenere Cipher
+
+.
+.
+m
+, $1 \le m \le 26$
+
+$P = P_1P_2P_3 \dots$
+$C = C_1C_2C_3 \dots$
+$K = [(k_1, k_2, \dots, k_m), (k_1, k_2, \dots, k_m), \dots]$
+$Encryption : C_i = (P_i + k_i) \bmod 26$
+$Decryption : P_i = (C_i - k_i) \bmod 26$
+
+:
+
+Key: "python"
+Plaintext: "rabbitwithbigpointyteeth"
+Ciphertext:
+
+| R | a | b | b | i | t | w | i | t | h | b | i | g | p | o | i | n | t | y | t | e | e | t | H |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| p | y | t | h | o | n | p | y | t | h | o | n | p | y | t | h | o | n | p | y | t | h | o | N |
+| G | Y | U | I | V | G | L | G | M | Y | M | V | N | H | P | B | G | N | R | P | L | H | U |
+
+21
+
+=== Page 3 ===
+( )
+.Composition Operation
+
+.
+
+:Partial-Size Key Ciphers
+
+.
+
+. 64 ( ) DES
+. $\log_{2}(2^{64}!) \approx 2^{70}$
+$2^{270}$ $2^{56}$ . 56
+.
+
+Permutation Group for partial-size key
+:siphers
+
+Composition Operation
+
+DES )
+. (
+
+Group
+.
+: Subgroup
+
+56 DES
+( $2^{56}$ )
+. ( $2^{64}!$ )
+:Keyless Ciphers
+
+32
+
+=== Page 4 ===
+128-bit plaintext
+AES
+Pre-round
+transformatio
+Round 1
+Round 2
+Round $N_r$
+(slightly different)
+128-bit ciphertext
+
+تحدد القيمة $N_r$ في الشكل عدد جولات
+المشفر.
+يبين الإيضاح العلاقة بين عدد الجولات
+وطول المفتاح.
+
+$N_r$
+Key size
+10
+128
+12
+192
+14
+256
+Relationship between
+number of rounds
+and cipher key size
+
+128-bit plaintext
+AES
+Pre-round
+transformatio
+Round 1
+Round 2
+Round $N_r$
+(slightly different)
+128-bit ciphertext
+
+بين أنه يتوفر لنا ثلاث نسخ من مشفر
+AES وذلك حسب طول المفتاح
+المستخدمات. نطلق على هذه النسخ
+المشفرات التالية: AES-128 و AES-192 و AES-256.
+يكون لكل نوع من النسخ
+المشفرات التشفير الجولات مع النسخ
+الثلاثة طول 128 مثال لمع طول كل
+معطيات النص المشفر وغير المشفر
+التي يجري التعامل معها.
+
+$N_r$
+Key size
+10
+128
+12
+192
+14
+256
+Relationship between
+number of rounds
+and cipher key size
+
+128-bit plaintext
+AES
+Pre-round
+transformatio
+Round 1
+Round 2
+Round $N_r$
+(slightly different)
+128-bit ciphertext
+
+يجري توليد مفاتيح تشفير الجولات بعدد
+يزيد بواحد عن عدد الجولات
+ونسمي هذه المفاتيح ما يلي:
+$.K_0, K_1, K_2, \dots, K_N$
+
+Round Keys
+(128-bits)
+$k_0$
+$k_1$
+$k_2$
+$\dots$
+$k_{N_r}$
+
+Key expansion
+
+Ciphertext Key
+(128, 192, or 256 bits)
+
+$N_r$
+Key size
+10
+128
+12
+192
+14
+256
+Relationship between
+number of rounds
+and cipher key size
+
+:
+AES
+.State
+Block
+Word
+Byte
+Bit
+
+58
+
+=== Page 5 ===
+• x = [1, 0, 1, 0, 0]
+• Sum = 1×9 + 0×12 + 1×2 + 0×7 + 0×5 = 11
+
+x :
+x s
+2ᵏ
+:
+Superincreasing tuple aᵢ ≥ a₁ + a₂ + ... + aᵢ₋₁
+:
+for (i = k down to 1) {
+if(s>=aᵢ){
+xᵢ = 1
+s = s - aᵢ
+}
+else xᵢ = 0
+}
+
+• a = [2, 3, 6, 12, 25, 50, 100, 200]
+• s = 139
+• Steps:
+• 139 < 200 → x8 = 0
+• 139 > 100 → x7 = 1 s = 39
+• 39 < 50 → x6 = 0
+• 39 > 25 → x5 = 1 s = 14
+• 14 > 12 → x4 = 1 s = 2
+• 2 < 6 → x3 = 0
+• 2 < 3 → x2 = 0
+• 2 = 2 → x1 = 1 s = 0
+
+:
+.
+.1
+.
+.2
+.
+.3
+
+84
+
+=== Page 6 ===
+Security Services .3
+:
+Message authentication Message confidentiality
+Nonrepudiation . Message integrity
+:
+.
+.
+" "
+Trusted )
+.(Center
+:
+M
+Alice's
+private key
+Signing
+algorithm
+Encryption
+M: Message
+S: Signature
+Bob's
+public key
+Alice's
+public key
+M
+Verifying
+algorithm
+Encryption
+Bob's
+private key
+Encryption (M,S)
+RSA Digital Signature Scheme RSA .4
+RSA
+RSA
+RSA
+.
+.
+107

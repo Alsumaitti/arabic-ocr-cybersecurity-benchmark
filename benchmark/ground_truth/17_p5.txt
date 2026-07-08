@@ -1,0 +1,7 @@
+BSS
+SSID: "MyNetwork" BSSID:
+d4:20:6d:90:ad:20
+AP
+802.11 Frame شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية Ethernet Frame الشكل التالي يظهر شكل الفريم اللاسلكي 802.11 frame Frame Control | Duration /ID | Address1 | Address2 | Address3 | Sequence Control | Address4 | Data | FCS 2 Bytes | 2 Bytes | 6 Bytes | 6 Bytes | 6 Bytes | 2 Bytes | 6 Bytes | 0–2304 Bytes | 4 Bytes Protocol Version | Type | Subtype | To DS | From DS | More Frag | Retry | Pwr Mgmt | More Data | WEP | Order Bits: 2 | 2 | 4 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+66
+www.cyberpedia.site

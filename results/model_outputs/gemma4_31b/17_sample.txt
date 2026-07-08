@@ -1,0 +1,259 @@
+=== Page 1 ===
+| Name | IEEE standard | Speed | Media | Maximum Distance |
+| :--- | :--- | :--- | :--- | :--- |
+| 10BASE-T | 802.3 (Ethernet) | 10 Mbps | Twisted pair (copper) | 100 m |
+| 100BASE-T | 802.3u (FastEthernet) | 100 Mbps | Twisted pair (copper) | 100 m |
+| 1000BASE-T | 802.3ab (GigaEthernet) | 1000 Mbps | Twisted pair (copper) | 100 m |
+| 1000BASE-LX | 802.3z (GigaEthernet) | 1000 Mbps | Long wavelength (single-mode fiber) | 5 km |
+| 10GBASE-T | 802.3an (10 Gigabit Ethernet) | 10 GBps | Twisted pair (copper) | 100 m |
+
+Ethernet Medium Access Control
+
+هذا المعيار يشرح نمطين للوصول للوسط:
+
+• Half duplex: في هذا النمط إذا كان هناك جهازين يرغبان بمشاركة وسط
+الارسال فإن التحكم بالوصول للوسط يتم من خلال تطبيق آلية تعمل على
+تحسس الحامل مع اكتشاف حدوث التصادم
+
+CSMA/CD – Carrier Sense Multiple Access with Collision Detection
+
+وهنا يكون للجهاز القدرة على اكتشاف عمليات الإرسال على نفس الوسط
+المشترك وعندما لا يكون هناك عملية ارسال يمكنه البدء هو بعملية الإرسال.
+يمكن لجهازين أن يرسلا بنفس الوقت مع بعض وفي هذه الحالة سيحدث
+تصادم بالرسائل وعند حدوث التصادم سيتم اكتشافه من قبل CSMA/CD والتي
+ستقوم بإيقاف الارسال وتأخر العملية لوقت محدد يسمى Backoff time
+
+يتم استخدام إشارة jam من قبل الأجهزة للإشارة أن التصادم قد حدث وكل
+الأجهزة التي يمكنها تحسس التصادم تكون كلها ضمن نفس collision
+domain
+
+25 www.cyberpedia.site
+
+=== Page 2 ===
+o 24 bits تحتوي على معرف خاص باسم الشركة المصنعة Organization
+Unique Identifier – OUI
+
+o 24 bit يتم تعيينها من قبل الشركة المصنعة ليكون عنوان MAC بشكل
+كامل هو 48 bit
+
+MAC-48 Address
+24 Bits 24 Bits
+OUI Assigned Vendor Assigned
+
+إيجاد عنوان MAC:
+
+في نظام الويندوز
+لإيجاد عنوان MAC Address يمكننا استخدام التعليمة:
+
+ipconfig/all
+
+Users\V20>ipconfig/all
+Windows IP Configuration
+Primary Dns Suffix Hybrid
+DNS Suffix Search List Hybrid
+NetBIOS over Tcpip Disabled
+Ethernet adapter Ethernet Media disconnected
+Connection-specific DNS Suffix
+DHCP Enabled No
+Autoconfiguration Enabled Yes
+
+root@ho:~/ # ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULT
+inet 192.168.200.128 netmask 255.
+inet6 fe80::20c:29ff:fe09:6293 pr
+ether 00:0c:29:09:62:93 txqueuelen
+RX packets 1409 bytes 167040 (167040
+RX errors 0 dropped 0 overruns 0
+TX packets 913 bytes 80200 (78.3
+TX errors 0 dropped 0 overruns 0
+
+في نظام Kali Linux من خلال التعليمة
+ifconfig
+
+LAN Hubs and Bridges
+
+Collision domain: يعرف آلية استخدام الوسط من قبل جهازين بنفس الوقت
+وذلك لتجنب حدوث التصادم وهذه الخطوة تتطلب بعض الخوارزميات لتجنب ارسال
+فريمين بنفس الوقت وحدوث التصادم والذي يؤدي لفقدان المعلومات، يمكننا
+استخدام CSMA/CD لحل هذه المشكلة وهي تسمح لكل جهاز باكتشاف التصادم
+وتجنب الارسال بنفس الوقت.
+
+29 www.cyberpedia.site
+
+=== Page 3 ===
+عندما يقوم السويتش بعملية Flooding or broadcast في هذه الحالة فإن الفريم
+سيتم إرساله إلى كل المنافذ ضمن المجال ما عدا المنفذ الذي أتى منه وفي
+الشبكات الأكبر ممكن لأجهزة السويتش أن تتصل مع بعضها البعض وكل عناوين
+MAC التي يمكن الوصول لها من قبل أجهزة السويتش الأخرى ستكون موجودة
+ضمن الجدول الخاص بالعناوين مع تحديد رقم المنفذ الذي من خلاله الاتصال بين
+أجهزة السويتش
+
+Broadcast Domain
+0200.1111.1111
+Dst E
+A
+Dst E
+B
+F0/1
+SW1
+F0/2
+F0/10
+F0/10
+SW2
+F0/1
+Dst E
+E
+0200.5555.5555
+Dst E
+D
+F0/2
+SW1 MAC Address Table
+MAC Address Port
+0200.1111.1111 F0/1
+SW2 MAC Address Table
+MAC Address Port
+0200.1111.1111 F0/10
+
+عندما يقوم الجهاز A بإرسال أول فريم فإن السويتش الأول سوف يقوم بإرسال هذا
+الفريم عبر كل المنافذ ومن ضمنهم المنفذ F0/10 ومن خلاله سيصل إلى السويتش
+الثاني والذي بدوره سيقوم بإرسال هذا الفريم لكل المنافذ عنده لأنه لا يعرف
+مكان تواجد الجهاز E وكلا السويتشين الأول والثاني سوف يقوم باستخدام التعلم
+بشكل اتوماتيكي للقيام بتحديث العناوين داخل الجداول
+
+36
+www.cyberpedia.site
+
+=== Page 4 ===
+معايير الشبكات اللاسلكية:
+
+| Amendment | 2.4 GHz | 5 GHz | Max Data Rate | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| 802.11-1997 | Yes | No | 2 Mbps | The original 802.11 standard ratified in 1997 |
+| 802.11b | Yes | No | 11 Mbps | Introduced in 1999 |
+| 802.11g | Yes | No | 54 Mbps | Introduced in 2003 |
+| 802.11a | No | Yes | 54 Mbps | Introduced in 1999 |
+| 802.11n | Yes | Yes | 600 Mbps | HT (high throughput), introduced in 2009 |
+| 802.11ac | No | Yes | 6.93 Gbps | VHT (very high throughput), introduced in 2013 |
+| 802.11ax | Yes | Yes | 4x 802.11ac | High Efficiency Wireless, Wi-Fi6; expected late 2019; will operate on other bands too, as they become available |
+
+المعيار 802.11 IEEE Standards تم الإعلان عنه في عام 1997 هذا المعيار عرف
+عرف شبكة لاسلكية محلية Wireless Local Area Network (WLAN) تعمل بسرعة نقل
+بيانات أو معدل نقل بيانات Data rate 1 and 2 Mbps وذلك في الحزمة الترددية
+المجانية ISM
+
+2.4 GHz Industrial, Scientific, and Medical (ISM) frequency band
+
+الشبكات اللاسلكية 802.11 اليوم تعمل بسرعة نقل بيانات عالية وفي حزم ترددية
+إضافية ومع هذا ظهرت أمور أخرى مثل الحماية Security والتجول Roaming
+وأجهزة الأكسس بوينت المتعددة وجودة الخدمة Quality of Service هذه الأمور تم
+تعريفها من خلال تعديلات بإضافة حرف أو أكثر إلى جانب رقم المعيار 802.11 هذا
+الحرف أو الأكثر يشير إلى مجموعة العمل التي قامت بإصدار هذا التعديل أو المعيار
+
+62
+www.cyberpedia.site
+
+=== Page 5 ===
+BSS
+SSID: "MyNetwork"
+BSSID:
+d4:20:6d:90:ad:20
+AP
+
+802.11 Frame
+شكل الفرم في الشبكات اللاسلكية مختلف عن شكل الفرم بالشبكات السلكية
+Ethernet Frame شكل الفرم اللاسلكي 802.11 frame يظهر الشكل التالي
+
+Frame Duration
+Control /ID
+2 Bytes 2 Bytes
+
+Address1
+6 Bytes
+
+Address2
+6 Bytes
+
+Address3
+6 Bytes
+
+Sequence
+Control
+2 Bytes
+
+Address4
+6 Bytes
+
+Data
+0-2304 Bytes
+
+FCS
+4 Bytes
+
+Protocol Type
+Version
+Bits. 2 2
+
+Subtype
+4
+
+To
+DS
+1
+
+From
+DS
+1
+
+More
+Frag
+1
+
+Retry
+1
+
+Pwr
+Mgmt
+1
+
+More
+Data
+1
+
+WEP
+1
+
+Order
+1
+
+66
+www.cyberpedia.site
+
+=== Page 6 ===
+مثال: في الشبكة x.x.x.1 فإن عنوان الشبكة هو 1.0.0.0 وعنوان broadcast هو
+1.255.255.255 وللدلالة على bits الخاصة بقسم الشبكة وال bits الخاصة بالأجهزة
+يتم إضافة قناع الشبكة network mask لكل عنوان IP
+
+قناع الشبكة network mask: هو رقم ثنائي له نفس طول عنوان IP أي 32 bits
+وفي القسم الخاص للشبكة يتم تخصيص القيمة 1 وللقسم الخاص بالأجهزة يتم
+تخصيص القيمة 0 ،مثلاً قناع الشبكة للكلاس A هو 255.0.0.0
+
+ويمكن أن يتم تمثيل قناع الشبكة من خلال الرمز / متبوعاً بعدد بتات القسم الخاص
+بالشبكة، مثلاً يمكننا كتابة قناع الشبكة للكلاس A على الشكل التالي /8 ، قناع
+الشبكة مهم جداً عند القيام بتقسيم الشبكات subnets
+
+| Class | Number of Networks | Number of Hosts per Network | Network Mask |
+| :--- | :--- | :--- | :--- |
+| Class A | 256 | 16,777,216 – 2 | 255.0.0.0 or /8 |
+| Class B | 65,536 | 65,536 – 2 | 255.255.0.0 or /16 |
+| Class C | 16,777,216 | 256 – 2 | 255.255.255.0 or /24 |
+
+تم إنقاص عدد الأجهزة بمقدار 2 بسبب وجود عنوان الشبكة وعنوان broadcast
+
+:IP Network Subnetting
+
+الشركات يجب أن تطلب عناوين IP من الجهات المسؤولة عن ذلك (مزود خدمة
+الإنترنت – أو الجهة المسؤولة عن عناوين IP) وذلك ضمن كلاس واحد وبحسب عدد
+الأجهزة الموجودة في الشركة ولكن هذه الطريقة غير فعالة لأن الشركة ستتلقى
+
+100
+www.cyberpedia.site

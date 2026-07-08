@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Model weights & HF cache (never commit — GBs)
+hf_cache/
+models/
+*.safetensors
+*.bin
+*.gguf
+
+# Regenerable evaluation artifacts (re-created by evaluation/kitab_eval.py)
+results/scores/hyp_pages/
+
+# Cluster runtime junk
+logs/*.err
+*.lock
+slurm-*.out
+
+# Slide-deck build artifacts
+tools/slides_source/node_modules/
+pptx_build/qa_*/
+*.pdf.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

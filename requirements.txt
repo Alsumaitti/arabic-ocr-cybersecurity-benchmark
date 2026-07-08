@@ -1,0 +1,6 @@
+# Scoring / evaluation only (CPU, no GPU needed).
+# Reproduces every published number from results/model_outputs/.
+jiwer>=4.0        # CER / WER
+rapidfuzz         # fast string alignment backend used by jiwer
+
+# For (optional) OCR inference on a GPU cluster, see server_pipeline/env/requirements.txt

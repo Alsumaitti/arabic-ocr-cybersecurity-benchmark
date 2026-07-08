@@ -1,0 +1,114 @@
+{
+ "formula": "security_ocr_score = 0.5*(1 - clipped macro loose CER) + 0.5*IOC_recall (micro, exact match after digit/case normalization)",
+ "gt_ioc_inventory": {
+  "total": 91,
+  "pages_with_iocs": 34,
+  "by_type": {
+   "url": 14,
+   "ipv4": 44,
+   "port": 12,
+   "cve": 1,
+   "domain": 15,
+   "hash": 2,
+   "email": 3
+  }
+ },
+ "caveat": "IOC recall is computed over the ground-truth IOC inventory above; with this corpus size treat per-type numbers with few instances as indicative only. ioc_precision/spurious_iocs flag fabricated indicators, which recall cannot see.",
+ "leaderboard": [
+  {
+   "model": "gemma4_31b",
+   "security_ocr_score": 0.7064,
+   "char_accuracy": 0.7535,
+   "ioc_recall": 0.6593,
+   "ioc_precision": 0.5635,
+   "spurious_iocs": 55,
+   "recall_by_type": {
+    "url": 0.5,
+    "ipv4": 0.5455,
+    "port": 1.0,
+    "cve": 1.0,
+    "domain": 0.8667,
+    "hash": 0.0,
+    "email": 1.0
+   },
+   "sec_per_page": 42.1,
+   "rank": 1
+  },
+  {
+   "model": "gemma4_26b",
+   "security_ocr_score": 0.6466,
+   "char_accuracy": 0.7547,
+   "ioc_recall": 0.5385,
+   "ioc_precision": 0.3314,
+   "spurious_iocs": 117,
+   "recall_by_type": {
+    "url": 0.5,
+    "ipv4": 0.4091,
+    "port": 0.5833,
+    "cve": 1.0,
+    "domain": 0.8667,
+    "hash": 0.0,
+    "email": 1.0
+   },
+   "sec_per_page": 39.7,
+   "rank": 2
+  },
+  {
+   "model": "qwen36_clean",
+   "security_ocr_score": 0.6428,
+   "char_accuracy": 0.4944,
+   "ioc_recall": 0.7912,
+   "ioc_precision": 0.6891,
+   "spurious_iocs": 37,
+   "recall_by_type": {
+    "url": 0.6429,
+    "ipv4": 0.9318,
+    "port": 0.4167,
+    "cve": 1.0,
+    "domain": 0.8667,
+    "hash": 0.0,
+    "email": 1.0
+   },
+   "sec_per_page": 124.8,
+   "rank": 3
+  },
+  {
+   "model": "ain",
+   "security_ocr_score": 0.4539,
+   "char_accuracy": 0.4902,
+   "ioc_recall": 0.4176,
+   "ioc_precision": 0.7619,
+   "spurious_iocs": 10,
+   "recall_by_type": {
+    "url": 0.5,
+    "ipv4": 0.4773,
+    "port": 0.25,
+    "cve": 1.0,
+    "domain": 0.4,
+    "hash": 0.0,
+    "email": 0.0
+   },
+   "sec_per_page": 14.7,
+   "rank": 4
+  },
+  {
+   "model": "qwen36",
+   "security_ocr_score": 0.4093,
+   "char_accuracy": 0.0054,
+   "ioc_recall": 0.8132,
+   "ioc_precision": 0.5791,
+   "spurious_iocs": 133,
+   "recall_by_type": {
+    "url": 0.7143,
+    "ipv4": 0.9545,
+    "port": 0.4167,
+    "cve": 1.0,
+    "domain": 0.8667,
+    "hash": 0.0,
+    "email": 1.0
+   },
+   "sec_per_page": 124.8,
+   "rank": 5
+  }
+ ]
+}

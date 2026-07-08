@@ -1,0 +1,12 @@
+File System
+windows
+NTFS, FAT32
+Removable Media: FAT, UFAT, FAT32
+Linux
+1- ext2: Default file system (Fedora, Redhat, Debin, 16TB) "Linux, Mac, Bsd, Win"
+2- ext3: 16TB, أقل سرعة من نظرائه، الميزة الجديدة عملية الصحائف
+3- ext4: 16TB, Good chose, Multi block allocation, تخزين مجموعة من البيانات
+4- JFS: 64TB, by IBM, Unix, استخدام نظام الأشجار الثنائية لتسريع الوصول للملفات
+5- Reiser or Reiser FS: نظام عكس, فهرسة الملفات, مزود بالسجلات, لا توجد فهرسة للملفات عكس (ext2)
+6- XfS: 64 TB, سريع وموثوق ويمكن تنفيذ عدة مهام في وقت واحد
+10

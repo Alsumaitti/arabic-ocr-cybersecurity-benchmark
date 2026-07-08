@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its methodology, please cite it as below."
+title: "Arabic Cybersecurity OCR Benchmark"
+authors:
+  - family-names: Alsumaitti
+    given-names: Osamah
+date-released: 2026-07-08
+license: MIT
+abstract: >
+  A KITAB-Bench-aligned model-selection study evaluating four vision-language
+  models on Arabic cybersecurity documents. 46 books are distilled to a 276-page
+  benchmark and scored on CER/WER, chrF, table structure, hallucination,
+  robustness, efficiency, and a security-specific IOC layer. Ground truth was
+  produced by Claude Opus 4.8 transcription with a light human review.
+keywords:
+  - OCR
+  - Arabic
+  - vision-language models
+  - benchmark
+  - cybersecurity
+  - document understanding

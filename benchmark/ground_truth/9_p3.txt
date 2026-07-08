@@ -1,0 +1,10 @@
+40
+▪ اعداد Security Onion
+1. تنزيل Security Onion: ISO file من الرابط هنا
+a. من VMware WorkStation
+b. حدد (Typical Installation >>) ننقر التالي
+c. Installer disc image file >> SO ISO file path >> Click Next.
+2. اختر Linux: CentOS 7 64-Bit and click Next.
+3. نقم بتخصيص العتاد كما يلي:
+a. قم بتغيير RAM إلى 4-32 جيجابايت
+b. أضف Adapters شبكة وقم بتعيينهما لـ Vmnet 4 و Vmnet 5 على التوالي

@@ -1,0 +1,181 @@
+=== Page 1 ===
+استخدام البرمجة للقيام بالتشفير:
+			شيفرة قيصر Caesar cipher المشابهة لها كانت تستخدم من أجل حماية المعلومات لعدة قرون
+	مضت
+				
+			الشكل التالي هو لقرص تشفير صمم من قبل ألبرت مير ألأهلية أميركية عام ١٨٦٣ والذي استخدم
+	في الحرب الأهلية الأمريكية
+				
+			إذا كان لديك رسالة طويلة جداً وتريد تشفيرها (كتاب مثلاً) فسوف تحتاج لأيام أو حتى أسابيع
+	من أجل إتمام عملية التشفير
+				
+			البرمجة يمكن أن تساعدك للقيام بهذه المهمة
+				
+			الكمبيوتر يستطيع القيام بهذه المهمة ويستطيع تشفير كمية كبيرة من النصوص والكلمات خلال
+	أجزاء من الثانية ولكن نحن بحاجة لأن نتعلم كيفية إرشاد الكمبيوتر للقيام بهذه المهمة
+				
+			يجب أن نتحدث مع الكمبيوتر بلغة يستطيع أن يفهمها، لحسن الحظ فإن تعلم لغة البرمجة هو أسهل
+	بكثير من تعلم أي لغة أجنبية أخرى كاليابانية أو الإسبانية.
+				
+			كل ما عليك معرفته هو أساسيات الرياضيات بالإضافة إلى تنزيل برنامج مجاني python والذي
+	سوف نقوم بشرحه في الفصل التالي.
+
+=== Page 2 ===
+القيمة الجديدة للمتغير spam أصبحت 25 لأن 25 = 15 + 10
+			في المثال التالي سوف نقوم بإسناد قيمة جديدة للمتغير spam
+				القيمة الجديدة للمتغير spam
+			في المثال التالي سوف نقوم بإسناد قيمة جديدة للمتغير spam
+				القيمة الجديدة للمتغير spam
+			في المثال التالي سوف نقوم بإسناد قيمة جديدة للمتغير spam
+				القيمة الجديدة للمتغير spam
+			في المثال التالي سوف نقوم بإسناد قيمة جديدة للمتغير spam
+				القيمة الجديدة للمتغير spam
+	أسماء المتغيرات:
+			الكمبيوتر لا يهتم باسم المتغير (يمكنك اختيار أي حرف أو أي اسم
+	باستثناء بعض الكلمات المحجوزة) ولكن يجب أن تستخدم أسماء للمتغيرات
+	تعكس أو توضح نوع البيانات التي سيتم حفظها في هذا المتغير وهذا من
+	أجل تسهيل عملية فهم العمل الذي سوف يقوم البرنامج بتنفيذه.
+				
+			يمكن أن تقوم بتسمية المتغير ب assnsnskkllfdsfdf أو monkey ويمكن أن تقوم
+	بتشغيل البرنامج بشكل طبيعي. أسماء المتغيرات (مثل أي شيء أخر في لغة
+	بايثون) في حساسة لحالة الأحرف (كبيرة أو صغيرة)، مثلاً المتغير spam
+	صغيره)، مثلاً المتغير spam مختلف عن spam (مختلف عن spam) لأنها فكرة
+	سيئة بأن تقوم باستخدام نفس الاسم للمتغيرات ولكن باختلاف حالة الأحرف
+
+=== Page 3 ===
+dead.'
+message
+في المتغير
+translated
+تخزين السلسلة النصية الفارغة ' ' في المتغير
+يتم تخزين القيمة 48 في المتغير len(message) (1- 48 = 1
+شرط الحلقة while (i >= 0) محقق والبرنامج سوف يقوم
+بتنفيذ التعليمات داخل كتلة التعليمات التالية
+يتتم حساب translated + message[i] والتي تساوي
+القيمة النصية ' ' ويتم تخزين هذه القيمة في المتغير
+translated
+يتم حساب 1 – i والتي تساوي 47 ويتم تخزين هذه القيمة في
+المتغير i
+عندما ينتهي البرنامج من تنفيذ آخر تعليمة في الكتلة يعود
+إلى بداية الحلقة ليقوم بإعادة فحص حالة الشرط مرة ثانية
+والشرط محقق للمرة ثانية والبرنامج سوف يقوم بتنفيذ
+التعليمات داخل الكتلة للمرة ثانية
+يتتم حساب translated + message[i] والتي تساوي 'd'
+ويتم تخزين هذه السلسلة النصية في المتغير
+translated
+يتم حساب 1 – i والتي تساوي 46 وسيتم حفظ هذه القيمة في
+المتغير i
+يتم العودة لفحص حالة الشرط وهو مازال محقق وينتقل
+البرنامج لتنفيذ التعليمات داخل الكتلة مرة أخرى
+يستمر تنفيذ التعليمات داخل الكتلة إلى أن تصبح قيمة المتغير
+i = 0 وقيمة المتغير
+translated = ' .daed era meht fo owt fi ,terces
+الخطوة ٤
+الخطوة ٥
+الخطوة ٦
+الخطوة ٧
+الخطوة ٨
+الخطوة ٩
+الخطوة ١٠
+الخطوة ١١
+الخطوة ١٢
+الخطوة ١٣
+الخطوة ١٤
+الخطوة ١٥
+الخطوة ١٦
+الخطوة ١٧
+الخطوة ١٨
+الخطوة ١٩
+الخطوة ٢٠
+الخطوة ٢١
+الخطوة ٢٢
+الخطوة ٢٣
+الخطوة ٢٤
+الخطوة ٢٥
+الخطوة ٢٦
+الخطوة ٢٧
+الخطوة ٢٨
+الخطوة ٢٩
+الخطوة ٣٠
+الخطوة ٣١
+الخطوة ٣٢
+الخطوة ٣٣
+الخطوة ٣٤
+الخطوة ٣٥
+الخطوة ٣٦
+الخطوة ٣٧
+الخطوة ٣٨
+الخطوة ٣٩
+الخطوة ٤٠
+الخطوة ٤١
+الخطوة ٤٢
+الخطوة ٤٣
+الخطوة ٤٤
+الخطوة ٤٥
+الخطوة ٤٦
+الخطوة ٤٧
+الخطوة ٤٨
+الخطوة ٤٩
+
+=== Page 4 ===
+
+
+=== Page 5 ===
+التابع (math.ceil) يقوم بالخطوة الأولى من خطوات عملية فك التشفير لشيفرة التحويل.
+
+=== Page 6 ===
+Source code for transpositionFileCipher.py
+1. # Transposition Cipher Encrypt/Decrypt File
+2. # http://inventwithpython.com/hacking (BSD Licensed)
+3.
+4. import time, os, sys, transpositionEncrypt, transpositionDecrypt
+5.
+6. def main():
+7. inputFilename = 'frankenstein.txt'
+8. # BE CAREFUL! If a file with the outputFilename name already exists,
+9. # this program will overwrite that file.
+10. outputFilename = 'frankenstein.encrypted.txt'
+11. myKey = 10
+12. myMode = 'encrypt' # set to 'encrypt' or 'decrypt'
+13.
+14. # If the input file does not exist, then the program terminates early.
+15. if not os.path.exists(inputFilename):
+16. print('The file %s does not exist. Quitting...' % (inputFilename))
+17. sys.exit()
+18.
+19. # If the output file already exists, give the user a chance to quit.
+20. if os.path.exists(outputFilename):
+21. print('This will overwrite the file %s. (C)ontinue or (Q)uit?' % (outputFilename))
+22. response = input('> ')
+23. if not response.lower().startswith('c'):
+24. sys.exit()
+25.
+26. # Read in the message from the input file
+27. fileObj = open(inputFilename)
+28. content = fileObj.read()
+29. fileObj.close
+30.
+31. print('%sing...' % (myMode.title()))
+32.
+33. # Measure how long the encryption/decryption takes.
+34. startTime = time.time
+35.
+36. if myMode = 'encrypt':
+37. translated = transpositionEncrypt.encryptMessage(myKey, content)
+38. else if myMode = 'decrypt':
+39. translated = transpositionDecrypt.decryptMessage(myKey, content)
+40. totalTime = round(time.time() - startTime, 2)
+41. print('%sion time: %s seconds' % (myMode.title(), totalTime))
+42.
+43. # Write out the translated message to the output file.
+44. outputFileObj = open(outputFilename, 'w')
+45. outputFileObj.write(translated)
+46. outputFileObj.close
+47.
+48. print('Done %sing %s (%s characters).' % (myMode, inputFilename, len(content)))
+49.
+50. print('Saved encrypted file as %s.' % (outputFilename))
+51.
+52. # If transpositionCipherFile.py is run (instead of imported as a module)
+53. if __name__ = '__main__':
+54. main()

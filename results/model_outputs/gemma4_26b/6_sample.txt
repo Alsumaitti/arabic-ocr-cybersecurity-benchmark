@@ -1,0 +1,160 @@
+=== Page 1 ===
+استخدام البرمجة للقيام بالتشفير:
+
+شفرة قيصر Caesar cipher أو الشفيرات
+المشابهة لها كانت تستخدم من أجل حماية
+المعلومات لعدة قرون مضت
+
+الشكل التالي هو لقرص تشفير صمم من قبل
+Albert Myer والذي استخدم في الحرب
+الأهلية الأميركية عام 1863
+
+إذا كان لديك رسالة طويلة جداً وتريد تشفيرها (كتاب مثلاً) فسوف تحتاج لأيام أو حتى أسابيع
+من أجل إتمام عملية التشفير
+البرمجة يمكن أن تساعدك للقيام بهذه المهمة
+الكمبيوتر يستطيع القيام بهذه المهمة ويستطيع تشفير كمية كبيرة من النصوص والكلمات خلال
+أجزاء من الثانية ولكن نحن بحاجة لأن نتعلم كيفية إرشاد الكمبيوتر للقيام بهذه المهمة
+يجب أن تتحدث مع الكمبيوتر بلغة يستطيع أن يفهمها، لحسن الحظ فإن تعلم لغة البرمجة هو
+أسهل بكثير من تعلم أي لغة أجنبية أخرى كاليابانية أو الاسبانية.
+كل ما عليك معرفته هو أساسيات الرياضيات بالإضافة إلى تنزيل برنامج مجاني python
+والذي نقوم بشرحه في الفصل التالي.
+
+=== Page 2 ===
+10
+15
+fizz
+eggs
+في المثال التالي سوف نقوم بإسناد قيمة جديدة للمتغير spam
+
+>>> fizz = 10
+>>> eggs = 15
+>>> spam = fizz + eggs
+>>> spam
+25
+>>>
+
+القيمة الجديدة للمتغير spam أصبحت 25 لأن 15 + 10 = 25
+
+أسماء المتغيرات:
+الكمبيوتر لا يهتم باسم المتغير (يمكنك اختيار أي حرف أو أي اسم باستثناء بعض الكلمات
+المحجوزة) ولكن يجب ألا تستخدم أسماء للمتغيرات تعكس أو توضح نوع البيانات التي سيتم
+حفظها في هذا المتغير وهذا من أجل تسهيل عملية فهم العمل الذي سوف يقوم البرنامج بتنفيذه.
+يمكن أن تقوم بتسمية المتغير asssnsnskkllfdsdfd or monkey فالكمبيوتر سوف يقوم
+بتشغيل البرنامج بشكل طبيعي.
+أسماء المتغيرات (مثل أي شيء آخر في لغة بايثون) في حساسة لحالة الأحرف (كبيرة أو
+صغيرة)، مثلاً المتغير spam مختلف عن Spam أو SPAM أنها فكرة سيئة بأن تقوم باستخدام نفس الاسم للمتغيرات ولكن باختلاف حالة الأحرف
+
+=== Page 3 ===
+dead.'
+
+في المتغير message
+الخطوة ٤ السطر ٥ تخزين السلسلة النصية الفارغة '' في المتغير translated
+الخطوة ٥ السطر ٧ 48 = len(message)-1 يتم تخزين القيمة 48 في المتغير i
+الخطوة ٦ السطر ٨ شرط الحلقة while (0 >= i) محقق والبرنامج سوف يقوم بتنفيذ التعليمات داخل كتلة التعليمات التالية
+الخطوة ٧ السطر ٩ يتم حساب translated + message[i والتي تساوي القيمة النصية ' '. ويتم تخزين هذه القيمة في المتغير translated
+الخطوة ٨ السطر ١٠ يتم حساب i - 1 والتي تساوي 47 ويتم تخزين هذه القيمة في المتغير i
+الخطوة ٩ السطر ٨ عندما ينتهي البرنامج من تنفيذ آخر تعليمية في الكتلة يعود إلى بداية الحلقة ليقوم بإعادة فحص حلقة الشرط مرة ثانية والشرط محقق للمرة الثانية والبرنامج سوف يقوم بتنفيذ التعليمات داخل الكتلة للمرة الثانية
+الخطوة ١٠ السطر ٩ يتم حساب translated + message[i والتي تساوي 'd.' ويتم تخزين هذه السلسلة النصية في المتغير translated
+الخطوة ١١ السطر ١٠ يتم حساب i - 1 والتي تساوي 46 وسيتم حفظ هذه القيمة في المتغير i
+الخطوة ١٢ السطر ٨ يعود العودة لفحص حلقة الشرط وهو مازال محقق وينتقل البرنامج لتنفيذ التعليمات داخل الكتلة مرة أخرى
+الخطوة ١٣ يستمر تنفيذ التعليمات داخل الكتلة إلى أن تصبح قيمة المتغير i = 0 وقيمة المتغير
+الخطوة ١٤٩
+translated = 'terces,tfo weh fo daed.a
+
+=== Page 4 ===
+The provided image is completely blank (pure white). There is no text to extract.
+
+=== Page 5 ===
+التابع math.ceil() يقوم بالخطوة الأولى من خطوات عملية فك التشفير لشفرة التحويل.
+
+19. def decryptMessage(key, message): transpositionDecrypt.py
+20.     # The transposition decrypt function will simulate the "columns" and
+21.     # "rows" of the grid that the plaintext is written on by using a list
+22.     # of strings. First, we need to calculate a few values.
+23. 
+24.     # The number of "columns" in our transposition grid:
+25.     numOfColumns = math.ceil(len(message) / key)
+26.     # The number of "rows" in our grid will need:
+27.     numOfRows = key
+28.     # The number of "shaded boxes" in the last "column" of the grid:
+29.     numOfShadedBoxes = (numOfColumns * numOfRows) - len(message)
+
+في السطر 25 يتم حساب عدد الأعمدة (الخطوة الأولى في عملية فك التشفير) وهو عند قسمة
+طول الرسالة len(message) على المفتاح ثم تمرير النتيجة إلى التابع math.ceil()
+ويتم حفظ النتيجة النهائية في المتغير numOfColumns .
+
+في السطر 27 يتم حساب عدد الأسطر (الخطوة الثانية في عملية فك التشفير) وهو عدد صحيح
+مساوي لقيمة المفتاح ويتم حفظ هذه القيمة في المتغير numOfRows .
+
+في السطر 29 يتم حساب عدد الصناديق المظللة (الخطوة الثالثة في عملية فك التشفير) وهو
+عدد الصناديق الكلي (عدد الأسطر ضرب عدد الأعمدة) منقوصاً منه طول الرسالة.
+
+31.     # Each string in plaintext represents a column in the grid. transpositionDecrypt.py
+32.     plaintext = [''] * numOfColumns
+
+المتغير plaintext هو قائمة تحتوي على عدد من السلاسل النصية وهذه السلاسل تبدأ فارغة ثم
+يتم ملئ كل سلسلة بأحرف كل عمود
+استخدام علامة الضرب سوف يؤدي لتكرار السلسلة النصية الفارغة حسب عدد الأعمدة.
+تذكر أنه عند استدعاء أي تابع سوف يخلق مجال محلي خاص به والمتغير plaintext
+موجود داخل التابع ()decryptMessage وهذا يعني أن المتغير plaintext هو متغير محلي
+وهو مختلف عن المتغير الذي له نفس الاسم (plaintext) والموجود ضمن التابع (main)
+
+شبكة الصناديق في مثالنا لها الشكل التالي:
+
+=== Page 6 ===
+Source code for transpositionFileCipher.py
+
+1. # Transposition Cipher Encrypt/Decrypt File
+2. # http://inventwithpython.com/hacking (BSD Licensed)
+3. 
+4. import time, os, sys, transpositionEncrypt, transpositionDecrypt
+5. 
+6. def main():
+7.     inputFilename = 'frankenstein.txt'
+8.     # BE CAREFUL! If a file with the outputFilename name already exists,
+9.     # this program will overwrite that file.
+10.    outputFilename = 'frankenstein.encrypted.txt'
+11.    myKey = 10
+12.    myMode = 'encrypt' # set to 'encrypt' or 'decrypt'
+13. 
+14.    # If the input file does not exist, then the program terminates early.
+15.    if not os.path.exists(inputFilename):
+16.        print(f'The file {inputFilename} does not exist. Quitting...' % (inputFilename))
+17.        sys.exit()
+18. 
+19.    # If the output file already exists, give the user a chance to quit.
+20.    if os.path.exists(outputFilename):
+21.        print(f'This will overwrite the file %. (C)ontinue or (Q)uit? ' % (outputFilename))
+22.        response = input('> ')
+23.        if not response.lower().startswith('c'):
+24.            sys.exit()
+25. 
+26.    # Read the message from the input file
+27.    fileObj = open(inputFilename, 'r')
+28.    content = fileObj.read()
+29.    fileObj.close()
+30. 
+31.    print('%s...' % (myMode.title()))
+32. 
+33.    # Measure how long the encryption/decryption takes.
+34.    startTime = time.time()
+35. 
+36.    if myMode == 'encrypt':
+37.        translated = transpositionEncrypt.encryptMessage(myKey, content)
+38.    elif myMode == 'decrypt':
+39.        translated = transpositionDecrypt.decryptMessage(myKey, content)
+40.        totalTime = round(time.time() - startTime, 2)
+41.        print('%s time: %s seconds %' % (myMode.title(), totalTime))
+42. 
+43.    # Write out the translated message to the output file.
+44.    outputFileObj = open(outputFilename, 'w')
+45.    outputFileObj.write(translated)
+46.    outputFileObj.close()
+47. 
+48.    print(f'Done %s %s characters.' % (myMode, inputFilename, len(content)))
+49.    print(f'Read file is %s.' % (myMode.title(), outputFilename))
+50. 
+51.    # If transpositionCipherFile.py is run (instead of imported as a module)
+52.    # call the main() function.
+53. if __name__ == '__main__':
+54.    main()

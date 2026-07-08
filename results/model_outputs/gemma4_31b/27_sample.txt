@@ -1,0 +1,175 @@
+=== Page 1 ===
+:
+.
+.
+.
+.
+.
+.
+BLP
+:Simple Security Property (SS Property) .1
+.no read up "
+"
+:(*) Security Property .2
+. no write down"
+confidential
+Write up allowed Read up blocked
+(*Property) (SS Property)
+Read down allowed Write down bloked
+(SS Property) (*Property)
+proprietary
+private
+sensitive
+public
+Bell-La Pdula موجز
+trusted subject
+BLP
+.
+.
+.
+18
+
+=== Page 2 ===
+subject alternative name
+
+.PreMasterSecet 48
+
+.PRF 48ال :
+
+“master secret” .PRF(PreMasterSecet :
+
+SHA MD5 CleantRandom||ServerRandom)
+
+:
+:
+
+. CleantRandom||ServerRandom) “key expansion” PRF(MasterSecet
+MAC
+
+.
+.
+
+reflection attack
+
+.
+PreMasterSecet
+
+)
+
+.( PreMasterSecet
+:
+
+.
+ChangeCipherSpec
+
+.
+
+.SHA MD5
+
+M3: A: ClientKeyExchange RSA_Encryption
+(ServerPublicKey,PreMasterSecet)
+B: NONE
+ChangeCipherSpec
+C: Finished MD5(M1 || M2 || M3A)
+SHA(M1 || M2 || M3A)
+
+35
+
+=== Page 3 ===
+MasterSecet                      PreMasterSecet
+
+:
+
+M4:  A: ChangeCipherSpec    NONE
+     B: Finished            MD5(M1 || M2 || M3A || M3C)
+                            SHA(M1 || M2 || M3A ||M3C)
+
+.
+
+DNS .5
+
+.DNS (Domain name system)
+
+DNS               .DNS               DNS
+reverse           DNS                lookup
+                                     DNS    lookup
+
+                                     DNS
+spoofing                             DNS lookup
+                                     .prevention
+
+                                     . DNS
+
+36
+
+=== Page 4 ===
+demilitarized Zone
+(DMZ)
+الإنترنت
+موجه فاصل
+مخدم البريد
+محيط الشبكة
+DMZ
+جدار النار
+الشبكة الداخلية
+المنطقة منزوعة السلاح DMZ
+.7
+80
+http
+41
+
+=== Page 5 ===
+USIM $\longleftrightarrow$ Radio $\longleftrightarrow$ Fixed subnet $\longleftrightarrow$ AUC
+VLR/SGSN
+TMSI(IMSI),....
+IMSI,...
+IMSI
+RAND,AUTH
+SEQ K RAND
+K
+RAND,AUTH
+XRES,CK,IK
+XRES,CK,IK,MAC
+SEQ CK IK
+RES
+=
+XRES
+Yes,no
+UMTS
+Authorization
+transport layer
+IP
+: .1
+mobility
+.(IPv4 NAT )
+57
+
+=== Page 6 ===
+.4
+
+:
+(aggregate )
+:COUNT •
+:SUM •
+:AVG •
+:MAX •
+:MIN •
+query predicate
+query set
+.query predicate
+:
+.aggregate
+
+| Nam | Sex | Program | Units | Grade Ave |
+| :--- | :--- | :--- | :--- | :--- |
+| A | F | MBA | 8 | 63 |
+| B | M | CS | 15 | 58 |
+| C | F | CS | 16 | 70 |
+| D | M | MIS | 22 | 75 |
+| E | M | CS | 8 | 66 |
+| F | F | MIS | 16 | 81 |
+| G | F | MBA | 23 | 68 |
+| H | M | CS | 7 | 50 |
+| L | M | MIS | 21 | 70 |
+
+74

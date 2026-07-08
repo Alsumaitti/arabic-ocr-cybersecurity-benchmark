@@ -1,0 +1,46 @@
+{
+  "model": "ain",
+  "sample": "1_sample",
+  "pdf": "/export/home/oalsumaitti/ocr-test/pdfs/benchmark_samples/1_sample.pdf",
+  "dpi": 320,
+  "max_new_tokens": 3072,
+  "total_seconds": 29.21,
+  "pages": [
+    {
+      "page": 1,
+      "chars": 433,
+      "generated_tokens": 170,
+      "seconds": 5.76
+    },
+    {
+      "page": 2,
+      "chars": 1160,
+      "generated_tokens": 401,
+      "seconds": 10.24
+    },
+    {
+      "page": 3,
+      "chars": 72,
+      "generated_tokens": 29,
+      "seconds": 3.14
+    },
+    {
+      "page": 4,
+      "chars": 66,
+      "generated_tokens": 26,
+      "seconds": 3.0
+    },
+    {
+      "page": 5,
+      "chars": 73,
+      "generated_tokens": 22,
+      "seconds": 2.9
+    },
+    {
+      "page": 6,
+      "chars": 130,
+      "generated_tokens": 43,
+      "seconds": 3.29
+    }
+  ]
+}

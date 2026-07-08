@@ -1,0 +1,250 @@
+=== Page 1 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "دليل حماية حسابات التواصل الاجتماعي"
+2.  **Identify the subtitle:** "لتعزيز أمن حساباتك احرص على :"
+3.  **Transcribe the first icon's text:** "تفعيل خاصة التحقق الثنائي"
+4.  **Transcribe the second icon's text:** "اختيار كلمة مرور قوية"
+5.  **Transcribe the third icon's text:** "ضبط إعدادات الحساب"
+6.  **Transcribe the fourth icon's text:** "مراجعة الجلسات النشطة"
+7.  **Transcribe the warning text:** "تجنّب مشاركة كلمة المرور الخاصة بك مع الآخرين"
+8.  **Transcribe the logo text:** "ODAY GO BIG OR GO HOME"
+</think>
+
+دليل حماية حسابات
+التواصل الاجتماعي
+لتعزيز أمن حساباتك
+احرص على :
+تفعيل خاصة
+التحقق الثنائي
+اختيار
+كلمة مرور قوية
+ضبط
+إعدادات الحساب
+مراجعة
+الجلسات النشطة
+تجنّب مشاركة كلمة المرور
+الخاصة بك مع الآخرين
+ODAY
+GO BIG OR GO HOME
+
+=== Page 2 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "استرجاع حسابك في منصة واتساب"
+2.  **Identify the subtitle:** "دليل حماية حسابات التواصل الاجتماعي"
+3.  **Identify the numbered section:** "1 واتساب ( WhatsApp ) :"
+4.  **Identify the process header:** "طريقة استرجاع الحساب :"
+5.  **Transcribe the flowchart steps:**
+    *   "أدخل رقم الهاتف"
+    *   "من صفحة تسجيل الدخول"
+    *   "سوف تصل إليك رسالة نصية برمز التحقق"
+    *   "سيتم تسجيل خروج أي طرف آخر بشكل تلقائي"
+    *   "أدخل الرمز"
+6.  **Transcribe the note section:** "ملاحظة: في حال لم تتمكن من استرجاع الحساب اتصل بفريق الدعم من خلال الرابط : https://www.whatsapp.com/contact"
+7.  **Transcribe the footer logo text:** "ODAY GO BIG OR GO HOME"
+
+Transcription:
+استرجاع حسابك في منصة واتساب
+دليل حماية حسابات
+التواصل الاجتماعي
+1 واتساب ( WhatsApp ) :
+طريقة استرجاع الحساب :
+أدخل رقم الهاتف
+من صفحة
+تسجيل الدخول
+سوف تصل إليك رسالة
+نصية برمز التحقق
+سيتم تسجيل خروج أي طرف
+آخر بشكل تلقائي
+أدخل الرمز
+ملاحظة: في حال لم تتمكن من استرجاع الحساب
+اتصل بفريق الدعم من خلال الرابط :
+https://www.whatsapp.com/contact
+ODAY
+GO BIG OR GO HOME
+</think>
+
+استرجاع حسابك في منصة واتساب
+دليل حماية حسابات
+التواصل الاجتماعي
+1 واتساب ( WhatsApp ) :
+طريقة استرجاع الحساب :
+أدخل رقم الهاتف
+من صفحة
+تسجيل الدخول
+سوف تصل إليك رسالة
+نصية برمز التحقق
+سيتم تسجيل خروج أي طرف
+آخر بشكل تلقائي
+أدخل الرمز
+ملاحظة: في حال لم تتمكن من استرجاع الحساب
+اتصل بفريق الدعم من خلال الرابط :
+https://www.whatsapp.com/contact
+ODAY
+GO BIG OR GO HOME
+
+=== Page 3 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "استرجاع حسابك في منصة إكس ( تويتر سابقا )" and "دليل حماية حسابات التواصل الاجتماعي".
+2.  **Identify the section header:** "2 إكس ( X ) ( تويتر سابقا ) :"
+3.  **Identify the sub-header:** "إدارة الجلسات النشطة :"
+4.  **Transcribe the flowchart text:**
+    *   "من صفحة تسجيل الدخول"
+    *   "أدخل عنوان البريد الإلكتروني، رقم الهاتف أو اسم المستخدم واتبع الإرشادات"
+    *   "اختر " هل نسيت كلمة المرور ؟ ""
+5.  **Transcribe the note:** "ملاحظة: في حال لم تتمكن من استرجاع الحساب اتصل بالدعم أو اتبع الإرشادات أو من خلال الرابط : https://help.x.com/ar"
+6.  **Transcribe the footer logo text:** "ODAY GO BIG OR GO HOME"
+
+Let's transcribe it all now.
+</think>
+
+استرجاع حسابك في منصة إكس ( تويتر سابقا )
+دليل حماية حسابات
+التواصل الاجتماعي
+2 إكس ( X ) ( تويتر سابقا ) :
+إدارة الجلسات النشطة :
+من صفحة
+تسجيل الدخول
+أدخل عنوان البريد
+الإلكتروني، رقم الهاتف
+أو اسم المستخدم
+واتبع الإرشادات
+اختر
+" هل نسيت كلمة المرور ؟ "
+ملاحظة: في حال لم تتمكن من استرجاع الحساب
+اتصل بالدعم أو اتبع الإرشادات أو من خلال الرابط :
+https://help.x.com/ar
+ODAY
+GO BIG OR GO HOME
+
+=== Page 4 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "دليل حماية حسابات التواصل الاجتماعي" and "استرجاع حسابك في منصة تيك توك".
+2.  **Identify the step number and label:** "4 تيك توك (TikTok) :"
+3.  **Identify the section header:** "إعادة تعيين كلمة المرور في TikTok :"
+4.  **Transcribe the steps in order:**
+    *   "من الملف الشخصي اضغط على ≡"
+    *   "اختر استخدام الهاتف / البريد الإلكتروني / اسم المستخدم" (Note: The icon is a user profile icon).
+    *   "اختر البريد الإلكتروني / اسم المستخدم اضغط على “هل نسيت كلمة المرور؟”" (Note: The icon is a lock with a question mark).
+    *   "اختر ما يناسبك واتبع الإرشادات" (Note: The icon is a document).
+5.  **Transcribe the warning section:** "في حال عدم التمكن من استرجاع الحساب قم بتبليغ فريق الدعم من خلال الموقع الرسمي https://support.tiktok.com/ar"
+6.  **Transcribe the footer logo:** "ODAY GO BIG OR GO HOME"
+
+Let's transcribe it line by line.
+</think>
+
+استرجاع حسابك في منصة تيك توك
+دليل حماية حسابات
+التواصل الاجتماعي
+4 تيك توك (TikTok) :
+إعادة تعيين كلمة المرور في TikTok :
+من الملف الشخصي
+اضغط على ≡
+اختر استخدام الهاتف / البريد
+الإلكتروني / اسم المستخدم
+اختر البريد الإلكتروني / اسم المستخدم
+اضغط على “هل نسيت كلمة المرور؟”
+اختر ما يناسبك
+واتبع الإرشادات
+في حال عدم التمكن
+من استرجاع الحساب
+قم بتبليغ فريق الدعم من خلال الموقع الرسمي
+https://support.tiktok.com/ar
+ODAY
+GO BIG OR GO HOME
+
+=== Page 5 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "استرجاع حسابك في منصة انستقرام" and "دليل حماية حسابات التواصل الاجتماعي".
+2.  **Identify the numbered section:** "6 انستقرام ( Instagram ) :"
+3.  **Identify the first section header:** "إعادة تعيين كلمة المرور في Instagram :"
+4.  **Transcribe the first flow:**
+    *   "من صفحة تسجيل الدخول"
+    *   "أدخل اسم المستخدم أو البريد الإلكتروني"
+    *   "اختر "هل نسيت كلمة المرور""
+    *   "سيصلك رمز تحقق، قم بإدخاله واتبع الإرشادات"
+5.  **Identify the second section header:** "في حال عدم التمكن من استرجاع الحساب Instagram :"
+6.  **Transcribe the second flow:**
+    *   "من صفحة تسجيل الدخول"
+    *   "اختر "هل نسيت كلمة المرور؟""
+    *   "اختر "Can't reset your password""
+    *   "من القائمة "إذا كنت تعتقد أن حسابك قد تم اختراقه" اختر "قم بزيارة هذه الصفحة""
+    *   "من القائمة "تعرض حسابي للاختراق" "My account was hacked" أدخل البيانات المطلوبة، واتبع الإرشادات"
+7.  **Identify the footer:** "ODAY GO BIG OR GO HOME"
+
+Let's transcribe it all now.
+</think>
+
+استرجاع حسابك في منصة انستقرام
+دليل حماية حسابات
+التواصل الاجتماعي
+6 انستقرام ( Instagram ) :
+إعادة تعيين كلمة المرور في Instagram :
+من صفحة
+تسجيل الدخول
+أدخل اسم المستخدم أو
+البريد الإلكتروني
+اختر
+"هل نسيت كلمة المرور"
+سيصلك رمز تحقق، قم
+بإدخاله واتبع الإرشادات
+في حال عدم التمكن من استرجاع الحساب Instagram :
+من صفحة
+تسجيل الدخول
+اختر
+"هل نسيت كلمة المرور؟"
+اختر
+"Can't reset your password"
+من القائمة "إذا كنت تعتقد
+أن حسابك قد تم اختراقه"
+اختر "قم بزيارة هذه الصفحة"
+من القائمة "تعرض حسابي للاختراق"
+"My account was hacked"
+أدخل البيانات المطلوبة، واتبع
+الإرشادات
+ODAY
+GO BIG OR GO HOME
+
+=== Page 6 ===
+The user wants the text from the image transcribed exactly.
+
+1.  **Identify the main title:** "استرجاع حسابك في منصة تلقرام" and "دليل حماية حسابات التواصل الاجتماعي".
+2.  **Identify the numbered section:** "8 تلقرام ( Telegram ) :"
+3.  **Identify the section header:** "إدارة الأجهزة المرتبطة :"
+4.  **Transcribe the flowchart steps:**
+    *   "من صفحة تسجيل الدخول"
+    *   "سوف تصل إليك رسالة نصية برمز التحقق"
+    *   "أدخل رقم الهاتف"
+    *   "أدخل الرمز"
+    *   "في حال وجود جلسات نشطة غير خاصة بك"
+    *   "الأجهزة"
+    *   "من الإعدادات"
+    *   "اختر “إنهاء جميع الجلسات الأخرى”"
+5.  **Transcribe the footer logo text:** "ODAY GO BIG OR GO HOME"
+
+Let's transcribe it line by line.
+</think>
+
+استرجاع حسابك في منصة تلقرام
+دليل حماية حسابات
+التواصل الاجتماعي
+8 تلقرام ( Telegram ) :
+إدارة الأجهزة المرتبطة :
+من صفحة
+تسجيل الدخول
+سوف تصل إليك رسالة
+نصية برمز التحقق
+أدخل رقم الهاتف
+أدخل الرمز
+في حال وجود جلسات
+نشطة غير خاصة بك
+الأجهزة
+من الإعدادات
+اختر “إنهاء جميع
+الجلسات الأخرى”
+ODAY
+GO BIG OR GO HOME

@@ -1,0 +1,26 @@
+الفصل الرابع مسائل وتطبيقات بلغة C#
+77
+ اختصار التعليمات البرمجية
+الشكل العام للدوال في لغة C#:
+<Access Specifier> <Return Type> <Method Name> (Parameter List)
+{
+Method Body
+}
+حيث إن:
+ Access Specifier: محدد الوصول (عام, خاص)
+ Return Type: نوع القيمة التي سوف تعيدها الدالة (integer, string)
+ Method Name: اسم الدالة
+ Parameter: معامل متغير
+ { تعني بداية الجملة البرمجية للدالة
+ } تعني نهاية الجملة البرمجية للدالة
+لاستخدام الدوال نحتاج إلى:
+ تعريف الدالة. المثال التالي عبارة عن دالة تأخذ قيميتين لأعداد صحيحة وتعيد القيمة الأكبر
+public int FindMax(int num1, int num2)
+{
+int result;
+if (num1 > num2)
+result = num1;
+else
+result = num2;
+return result;
+}

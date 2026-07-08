@@ -1,0 +1,179 @@
+=== Page 1 ===
+File System
+
+windows
+
+NTFS , FAT32
+
+Removable Media : FAT , UFAT , FAT32
+
+Linux
+1- ext2 : Default file system (Fedora , Redhat , Debin ,16TB) “Linux ,
+Mac , Bsd, Win”
+
+2- ext3 : 16TB , الميزة الجديدة عملية الصحائف ,أقل سرعة من نظرائه ,
+
+3- ext4 : 16TB , Good chose , Multi block allocation , تخزين مجموعة
+من البيانات
+
+4- JFS : 64TB , by IBM , Unix , استخدام نظام الأشجار الثنائية لتسريع
+الوصول للملفات
+
+5- Reiser or Reiser FS نظام عكس نظام , فهرسة الملفات, لا
+,مزود بالسجلات , توجد فهرسة للملفات عكس (ext2)
+
+6- Xfs : 64 TB , سريع وموثوق ويمكن تنفيذ عدة مهام في وقت واحد ,
+
+10
+
+=== Page 2 ===
+Step 1
+
+the name of this process : ip lease request
+
+1- pc client without ip=> send a request to get the ip
+
+2- 0.0.0.0
+
+3- 255.255.255.255 : pc name , network card .
+
+Step 2
+
+the name of this process : ip lease offer
+
+DHCP يقوم بالرد ويحتوي على عنوان الأي بي والماك ادرس
+
+Step 3
+
+the name of this process
+
+بعد استلام الجهاز الأي بي والماك ادرس يقوم بإرسال رسالة يخبره انه تم
+اختيار أي بي
+
+17
+
+=== Page 3 ===
+لاستعراض العمليات النشطة حالياً على الخوادم : top -
+
+- apt-get install atop
+- atop
+- touch test : make file
+- vi touch : edit file
+- cat touch : read the file
+
+25
+
+=== Page 4 ===
+يقوم بإلغاء التراجع ويأخذك خطوة للأمام : Ctrl +v
+
+أحد الأسهم التي على اليمين أو اليسار +v : لتحديد سطر أو الكل
+
+أحد الأسهم التي على اليمين أو اليسار +V : لتحديد سطر أو الكل
+
+لفتح نافذ أخرى في المحرر vi : Ctrl +w+s or Ctrl +w+v
+
+احد الأسهم العلوي أو السفلي + w + Ctrl : للتنقل
+
+h : Backspace
+
+j : Move Down
+
+k : Move Up
+
+w : Move to the next word
+
+e : Move to the last word
+
+b : Move to the beginning preview
+
+33
+
+=== Page 5 ===
+angel راح يعيد تسميت المجلد إلى gnom
+أو
+mv angel.php /ho me/hackteach/publi c_htm l/cc/test
+
+يقوم بتحويل الملف من المجلد الذي هو فيه إلى المجلد الجديد
+
+ln -sf / home / user / public_html / vb / in clude s / c onfig . php conf.txt
+
+راح يجب لك نسخة من ملف الكونفق تبع اليوزرالمحدد في الملف الجديد
+conf.txt
+"أمر الحصول على السيم لنك symlink,
+
+أمر لمعرفة اليوزراللي مستهلك أكبر مساحه
+du -s / home | sort -rn
+( home بدون مسافه بعد / و )
+
+لعمل ماس ديفهيس بعد اخذ الروت
+PHPكود
+find / -name "index.*" -exec cp /t mp/index.htm
+
+أوامر إظهار باسوردات السى بانل فى حالة كنت روت
+
+find / -name service.pwd
+أو
+cat /home/*/public_html/_vti_pvt/service.pwd
+
+أو
+
+cat / var/cpanel/accounting.log(قبل لاننسى تحذف المسافات var و home )
+
+41
+
+=== Page 6 ===
+Page No | 3
+
+B. All files within /proc/ are read-only and their contents cannot be changed.
+C. All changes to files in /proc/ are immediately recognized by the kernel.
+D. All files within /proc/ are only readable by the root user.
+
+Answer: C
+
+Question: 5
+
+What of the following statements are true regarding /dev/ when using udev? (Choose TWO correct answers.)
+
+A. Entries for all possible devices get created on boot even if those devices are not connected.
+B. Additional rules for udev can be created by adding them to /etc/udev/rules.d/.
+C. When using udev, it is not possible to create block or character devices in /dev/ using mknod.
+D. The /dev/ directory is a filesystem of type tmpfs and is mounted by udev during system startup.
+E. The content of /dev/ is stored in /etc/udev/dev and is restored during system startup.
+
+Answer: B, D
+
+Question: 6
+
+Which of the following information is stored within the BIOS? (Choose TWO correct answers.)
+
+A. Boot device order
+B. Linux kernel version
+C. Timezone
+D. Hardware configuration
+E. The system's hostname
+
+Answer: A, D
+
+Question: 7
+
+Which of the following commands reboots the system when using SysV init? (Choose TWO correct answers.)
+
+A. shutdown -r now
+B. shutdown -r "rebooting"
+C. telinit 6
+D. telinit 0
+E. shutdown -k now "rebooting"
+
+Answer: A, C
+
+Question: 8
+
+Which of the following are init systems used within Linux systems? (Choose THREE correct answers.)
+
+A. startd
+B. systemd
+C. Upstart
+
+www.Certificationking.com
+
+64

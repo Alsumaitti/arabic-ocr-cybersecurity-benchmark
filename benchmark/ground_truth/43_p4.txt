@@ -1,0 +1,12 @@
+Ctrl+v: يقوم بإلغاء التراجع ويأخذك خطوة للأمام
+v+: لتحديد سطر أو الكل أحد الأسهم التي على اليمين أو اليسار
+V+: لتحديد سطر أو الكل أحد الأسهم التي على اليمين أو اليسار
+Ctrl+w+v: or Ctrl+w+s لفتح نافذ أخرى في المحرر vi
+Ctrl+w+: للتنقل احد الأسهم العلوي أو السفلي
+h: Backspace
+j: Move Down
+k: Move Up
+w: Move to the next word
+e: Move to the last word
+b: Move to the beginning preview
+33

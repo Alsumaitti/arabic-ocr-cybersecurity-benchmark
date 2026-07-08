@@ -1,0 +1,18 @@
+VII
+0'/F ط7GF' 7و G'F /N.7?F' />FF'. /F ط7GF' /N6NFGFg' />FF'. /F ط7GF' 7'7..g' f' GF?./F Machine learning ML /N7.F' G.و G Phishing attack PA FN. .ط FG? أ H76G /.و GGF' .N و F' Open Web Application Security Project OWASP /?'و F /7'/' G'>F 0'F'N.F' Relational Database Management System DBMS N.ط F' 7'//Fg' Linear Regression LR /N6G7GF' /.F'?GF' ///H Central Processing Unit CPU /NGN77F' /.F'?GF' ///H Graphic Processing Unit
+GPU
+/FG'G.GF' 7NN7.F' /&N.
+Integrated Development Environment
+IDE
+
+[TABLE]
+| 7'7..g' | /N6NFGFg' />FF'. /F ط7GF' | /N.7?F' />FF'. /F ط7GF' |
+|---|---|---|
+| ML | Machine learning | /Ff' GF?. |
+| PA | Phishing attack | / N7.F' G و.G |
+| OWASP | Open Web Application Security Project | FN.ط. FG أ ?H76G / و.GGF' .N و F' |
+| DBMS | Relational Database Management System | /?'و F /7'/' G'>F 0'F'N.F' |
+| LR | Linear Regression | N ط.F' 7'//Fg' |
+| CPU | Central Processing Unit | /N6G7GF' /.F'?GF' ///H |
+| GPU | Graphic Processing Unit | /NGN77F' /.F'?GF' ///H |
+| IDE | Integrated Development Environment | /FG'G.GF' 7NN7.F' /&N. |

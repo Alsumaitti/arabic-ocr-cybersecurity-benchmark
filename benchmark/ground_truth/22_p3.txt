@@ -1,0 +1,32 @@
+أمن تكنولوجيا المعلومات
+جدول المحتويات
+9.1.4 حذف البيانات الخاصة من متصفح الويب Deleting private data from a browser 46
+10.1.4 برمجيات التحكم بالمحتوى Content-control software 47
+تمرين (4-1) 48
+2.4 الشبكات الاجتماعية SOCIAL NETWORKING 50
+1.2.4 فهم أهمية عدم الكشف عن معلومات سرية على مواقع الشبكات الاجتماعية The importance of not disclosing confidential information on social networking sites 50
+2.2.4 الحاجة إلى تطبيق الإعدادات الخصوصية المناسبة على حساب الشبكات الاجتماعية The need to apply appropriate social networking account privacy settings 50
+3.2.4 الأخطار المحتملة عند استخدام الشبكات الاجتماعية Potential dangers when using social networking sites 51
+تمرين (4-2) 51
+5 الاتصالات COMMUNICATIONS 52
+1.5 البريد الإلكتروني E-MAIL 52
+1.1.5 الهدف من تشفير/فك تشفير رسائل البريد الإلكتروني The purpose of encrypting, decrypting an e-mail 52
+2.1.5 التوقيع الرقمي The term: Digital signature 52
+3.1.5 إنشاء توقيع رقمي وإضافته Creating and adding a digital signature 53
+4.1.5 الحذر من استقبال رسائل احتيالية، أو رسائل غير مرغوب فيها Be aware of the possibility of receiving fraudulent and unsolicited e-mail 56
+5.1.5 الخداع/التصيّد Phishing 56
+6.1.5 خطر إصابة الحاسوب بالبرامج الخبيثة/الضارة The danger of infecting the computer with malware 57
+تمرين (5-1) 57
+2.5 المراسلة اللحظية/الفورية INSTANT MESSAGING (IM) 58
+1.2.5 مفهوم المراسلة اللحظية/الفورية، واستخداماتها The term: Instant Messaging (IM) and its uses 58
+2.2.5 الثغرات الأمنية في المراسلة اللحظية The security vulnerabilities of IM 59
+3.2.5 أساليب ضمان السرية أثناء استخدام المراسلة اللحظية Methods of ensuring confidentiality while using IM 59
+تمرين (5-2) 60
+6 الإدارة الآمنة للبيانات SECURE DATA MANAGEMENT 61
+1.6 النسخ الاحتياطي وتأمين البيانات SECURING AND BACKING UP DATA 61
+1.1.6 طرق ضمان الأمن المادي للأجهزة Ways of ensuring physical security of devices 61
+2.1.6 أهمية النسخ الاحتياطي The importance of having a back-up procedure 61
+3.1.6 ميزات النسخ الاحتياطي The features of a back-up procedure 62
+4.1.6 إجراء النسخ الاحتياطي للبيانات Back up data 62
+5.1.6 استعادة وتقييم البيانات التي تم نسخها نسخا احتياطيا Restoring and validating backed up data 64
+تمرين (6-1) 65

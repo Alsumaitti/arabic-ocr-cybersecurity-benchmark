@@ -1,0 +1,20 @@
+gnom إلى angel راح يعيد تسميت المجلد
+أو
+mv angel.php /ho me/hackteach/publi c_htm l/cc/test
+يقوم بتحويل الملف من المجلد الذي هو فيه إلى المجلد الجديد
+ln -sf / home / user / public_html / vb / in clude s / c onfig . php conf.txt
+راح يجيب لك نسخة من ملف الكونفق تبع اليوزر المحدد في الملف الجديد conf.txt
+symLink ,,أمر الحصول على السيم لنك
+أمر لمعرفة اليوزر اللي مستهلك أكبر مساحه
+du -s / home | sort -rn
+(home بدون مسافه بعد / و)
+لعمل ماس ديفيس بعد اخذ الروت
+كود PHP
+find / -name "index.*" -exec cp /t mp/index.htm
+أوامر إظهار باسوردات السي بانل في حالة كنت روت
+find / -name service.pwd
+أو
+cat / home/*/public_html/_vti_pvt/service.pwd
+أو
+cat / var/cpanel/accounting.log (home و var لاتنسى تحذف المسافات قبل)
+41

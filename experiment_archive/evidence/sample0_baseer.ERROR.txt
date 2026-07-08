@@ -1,0 +1,18 @@
+AttributeError: 'NoneType' object has no attribute '__module__'
+
+Traceback (most recent call last):
+  File "/export/home/oalsumaitti/ocr-test/scripts/try_three_models.py", line 309, in main
+    summary[model_name] = run_single_model(
+  File "/export/home/oalsumaitti/ocr-test/scripts/try_three_models.py", line 187, in run_single_model
+    loaded = load_best_model(spec["path"])
+  File "/export/home/oalsumaitti/ocr-test/scripts/try_three_models.py", line 138, in load_best_model
+    processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True)
+  File "/export/home/oalsumaitti/anaconda3/envs/ocr-env/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 327, in from_pretrained
+    return processor_class.from_pretrained(
+  File "/export/home/oalsumaitti/anaconda3/envs/ocr-env/lib/python3.10/site-packages/transformers/processing_utils.py", line 1715, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+  File "/export/home/oalsumaitti/anaconda3/envs/ocr-env/lib/python3.10/site-packages/transformers/processing_utils.py", line 1844, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(
+  File "/export/home/oalsumaitti/anaconda3/envs/ocr-env/lib/python3.10/site-packages/transformers/models/auto/video_processing_auto.py", line 355, in from_pretrained
+    ).__module__.startswith("transformers.")
+AttributeError: 'NoneType' object has no attribute '__module__'. Did you mean: '__reduce__'?

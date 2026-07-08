@@ -1,0 +1,16 @@
+جدول الاختصارات والمصطلحات
+[TABLE]
+| المصطلح / الاختصار | الاسم الكامل بالإنكليزية | الاسم بالعربية |
+|---|---|---|
+| Keylogger | - | برنامج رصد (تسجيل) لوحة المفاتيح (ضغطات لوحة المفاتيح) |
+| BEC | Business Email Compromise | اختراق البريد الإلكتروني للشركات |
+| API | Application Programming Interface | واجهة برمجة التطبيقات |
+| ROM | Read-Only Memory | ذاكرة القراءة فقط |
+| OS | Operating System | نظام تشغيل |
+| USB | Universal Serial Bus | مدخل شهير لأجهزة الإدخال والإخراج والذواكر |
+| PS2 | - | مدخل قديم للماوس ولوحة المفاتيح |
+| HIPS | Host-based Intrusion Prevention System | نظام للوقاية من الاختراقات |
+| FTP | File Transfer Protocol | بروتوكول يستخدم لنقل الملفات |
+| DDos | Distributed Denial of Service | نوع من أنواع هجمات منع الخدمة |
+| Hypervisor | - | برنامج أو طبقة برمجية تدير وتشغل الآليات الظاهرية وتسمح بتقسيم الموارد الفيزيائية للجهاز إلى عدة بيئات ظاهرية مستقلة ومعزولة عن بعضها البعض |
+| PIN | Personal Identification Number | الرقم السري الشخصي |

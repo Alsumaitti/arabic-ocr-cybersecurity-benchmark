@@ -1,0 +1,7 @@
+- top: لاستعراض العمليات النشطة حالياً على الخوادم
+- apt-get install atop
+- atop
+- touch test: make file
+- vi touch: edit file
+- cat touch: read the file
+25

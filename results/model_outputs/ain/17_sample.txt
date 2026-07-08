@@ -1,0 +1,243 @@
+=== Page 1 ===
+This standard explains two methods of access to the medium:
+• Half duplex: In this mode, if two devices want to send data simultaneously, they will collide. The standard uses a backoff algorithm to resolve this collision. When a device detects a collision, it waits for a random amount of time before attempting to send again.
+• Full duplex: In this mode, devices can send and receive data simultaneously without the risk of collisions. This is achieved by using separate pairs of wires for sending and receiving data.
+• CSMA/CD: Carrier Sense Multiple Access with Collision Detection. This is the standard access method used in Ethernet networks. Each device listens to the medium before sending data. If the medium is busy, the device waits until it becomes free. When sending data, the device listens to the medium for collisions. If a collision is detected, the device waits for a random amount of time before retransmitting the data.
+• Ethernet: Ethernet is a LAN technology that uses CSMA/CD access method. It uses unshielded twisted pair (UTP) or shielded twisted pair (STP) cables to connect devices. Ethernet supports various speeds, including 10 Mbps, 100 Mbps, 1000 Mbps, and 10000 Mbps. The maximum cable length for Ethernet is 100 meters.
+• Token Ring: Token Ring is a LAN technology that uses a token passing method for accessing the medium. Each device on the network has a token, and only the device holding the token can send data. This ensures that only one device can send data at a time, preventing collisions. Token Ring uses coaxial cable to connect devices and supports various speeds, including 4 Mbps, 16 Mbps, and 100 Mbps. The maximum cable length for Token Ring is 500 meters.
+• FDDI: Fiber Distributed Data Interface (FDDI) is a LAN technology that uses a dual-ring topology for accessing the medium. It uses fiber optic cable to connect devices and supports a speed of 100 Mbps. FDDI has a maximum cable length of 2000 meters.
+• Token Bus: Token Bus is a LAN technology that uses a token passing method for accessing the medium. It uses coaxial cable to connect devices and supports various speeds, including 4 Mbps, 16 Mbps, and 100 Mbps. The maximum cable length for Token Bus is 500 meters.
+• ARCNET: ARCNET is a LAN technology that uses a token passing method for accessing the medium. It uses coaxial cable to connect devices and supports a speed of 10 Mbps. ARCNET has a maximum cable length of 500 meters.
+• 10BASE-T: 10BASE-T is a LAN technology that uses Ethernet for accessing the medium. It uses unshielded twisted pair (UTP) or shielded twisted pair (STP) cables to connect devices. 10BASE-T supports a speed of 10 Mbps and has a maximum cable length of 100 meters.
+• 100BASE-T: 100BASE-T is a LAN technology that uses Fast Ethernet for accessing the medium. It uses unshielded twisted pair (UTP) or shielded twisted pair (STP) cables to connect devices. 100BASE-T supports a speed of 100 Mbps and has a maximum cable length of 100 meters.
+• 1000BASE-T: 1000BASE-T is a LAN technology that uses Gigabit Ethernet for accessing the medium. It uses unshielded twisted pair (UTP) or shielded twisted pair (STP) cables to connect devices. 1000BASE-T supports a speed of 1000 Mbps and has a maximum cable length of 100 meters.
+• 1000BASE-LX: 1000BASE-LX is a LAN technology that uses Gigabit Ethernet for accessing the medium. It uses long wavelength (single-mode fiber) to connect devices. 1000BASE-LX supports a speed of 1000 Mbps and has a maximum cable length of 5 km.
+• 10GBASE-T: 10GBASE-T is a LAN technology that uses 10 Gigabit Ethernet for accessing the medium. It uses unshielded twisted pair (UTP) or shielded twisted pair (STP) cables to connect devices. 10GBASE-T supports a speed of 10 Gbps and has a maximum cable length of 100 meters.
+This standard explains two methods of access to the medium:
+
+=== Page 2 ===
+Organizationl تحوي على معرف خاص باسم الشركة المصنعة
+Unique Identifier – OUI
+● يتم تعيينها من قبل الشركة المصنعة ليكون عنوان
+● 24 bit كاملا هو MAC بشكل
+MAC-48 Address
+24 Bits
+24 Bits
+OUI Assigned
+Vendor Assigned
+إيجاد عنوان MAC:
+في نظام الويندوز
+يمكننا استخدام التعليمة:
+Ipconfig /all
+وذلك لتجنب حدوث التصادم وهذه الخطوة تتطلب بعض الخوارزميات لتجنب ارسال
+فريمين بنفس الوقت وحدوث التصادم والذي يؤدي لفقدان المعلومات، يمكننا
+استخدام CSMA/CD لحل هذه المشكلة وهي تسمح لكل جهاز باكتشاف التصادم
+وتجنب الارسال بنفس الوقت.
+29
+
+=== Page 3 ===
+عندما يقوم السويتش بعملية Flooding or broadcast فإن الفريم
+
+=== Page 4 ===
+معايير الشبكات اللاسلكية:
+				المعيار		2.4 GHz		5 GHz		Max Data Rate		Notes802.11-1997		Yes			2 Mbps		The original 802.11 standard ratified in 1997802.11b		Yes				11 Mbps		Introduced in 1999802.11g		Yes				54 Mbps		Introduced in 2003802.11a		No				54 Mbps		Introduced in 1999802.11n		Yes				600 Mbps		HT (high throughput), introduced in 2009802.11ac		No				6.93 Gbps		VHT (very high throughput), introduced in 2013802.11ax		Yes				4x 802.11ac		High Efficiency Wireless, Wi-Fi6; expected late 2019; will operate on other bands too, as they become
+		available				في عام 1997 تم الإعلان عنه في IEEE Standards 802.11 هذا المعيار عرف شبكة لاسلكية محلية
+	    تعمل بسرعة نقل بيانات أو معدل نقل بيانات ISM المجانية 2.4 GHz Industrial, Scientific, and
+	    Medical (ISM) frequency band.اليوم 802.11 تُستخدم شبكات اللاسلكية بإضافة حرف أ أخرى مثل الحماية Security و Roaming
+	    إضافية ومع هذا التطور ظهرت أمور أخرى مثل جودة الخدمة Quality of Service وأجهزة
+	    الأكسس بوينت المتعددة. وتم تعريفها من خلال تعديلات بإضافة حرف أو أكثر إلى جانب رقم
+	    المعيار 802.11 هذا الحرف أو الأكثر يشير إلى مجموعة العمل التي قامت بإصدار هذا التعديل
+	    أو المعيار.
+
+=== Page 5 ===
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+شكل الفريم اللاسلكي 802.11 Frame
+شكل الفريم في الشبكات اللاسلكية مختلف عن شكل الفريم بالشبكات السلكية
+802.11 frame Ethernet Frame
+
+=== Page 6 ===
+مثلا: في الشبكة 1.x.x.x فإن عنوان الشبكة هو 1.0.0.0 وعنوان bits الخاصة بقسم الشبكة وال
