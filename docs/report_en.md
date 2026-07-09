@@ -4,7 +4,7 @@
 **Date:** 2026-07-06
 **Methodological reference:** [KITAB-Bench](https://mbzuai-oryx.github.io/KITAB-Bench/) (Heakl et al., MBZUAI 2025) — the most comprehensive Arabic document-understanding benchmark
 **Hardware:** Panther server — NVIDIA H200 GPU (inference); local Python 3.13 (scoring)
-**Test set:** 46 Arabic cybersecurity books × 6 curated pages = **276 pages**. Ground-truth reference was produced by **Claude Opus 4.8 transcription with a light human review** (see the honesty note in §6), not a gold hand-written transcription — this is the study's biggest validity caveat.
+**Test set:** 46 Arabic cybersecurity books × 6 curated pages = **276 pages**. Ground-truth reference was produced by **Claude Opus 4.8 transcription with a light human review**, not a gold hand-written transcription — this is the study's biggest validity caveat.
 
 ---
 
